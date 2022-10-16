@@ -18,7 +18,7 @@ allow_list = {
 
 result = 0
 
-f = str('6782')
+f = str(input('Введите число: '))
 for i in f:
     for key, value in allow_list.items():
         if i == key:

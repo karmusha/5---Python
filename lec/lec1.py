@@ -171,10 +171,10 @@ colors.append('gray') # добавить в конец
 print(colors == ['red', 'green', 'blue', 'gray']) # True
 colors.remove('red') # del colors[0] # удалить элемент
 
-# Функции
-#def funtcion_name(x):
-    # body line 1...
-    # optional return
+# # Функции
+# #def funtcion_name(x):
+#     # body line 1...
+#     # optional return
 
 def f(x):
     if x == 1:
@@ -183,3 +183,9 @@ def f(x):
         return 23
     else:
         return
+
+def get_fuctorial(n):
+    if n == 1:
+        return n
+    else:
+        return n*get_fuctorial(n-1)

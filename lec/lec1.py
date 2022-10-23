@@ -130,6 +130,8 @@ for i in 'qwer - ty': # Или можно вывести строку, разб�
 for i, item in enumerate(list):
     print(i, item)
 
+list2 = [int(x) for x in list]
+
 # О строках
 text = 'съешь ещё этих мягких французских булок'
 print(len(text)) # 39

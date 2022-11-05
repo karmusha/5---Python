@@ -85,19 +85,19 @@ li = list(map(lambda x: x+10, li))
 print(li)
 
 print("Введите элементы первого списка через запятую")
-# data1 = map(int, input().split(','))
+data1 = map(int, input().split(','))
 
-# for e in data1:
-#     print(e)
-# print("---")
+for e in data1:
+    print(e)
+print("---")
 
-# for e in data1:
-#     print(e)
+for e in data1:
+    print(e)
 
 # Второй раз по мапе пробежаться нельзя, так как это итератор. Чтобы пробегаться по многу раз, нужно оберунуть это в list, как сделано ниже.
 
 print("Введите элементы второго списка через пробел")
-# data2 = list(map(int, input().split()))
+data2 = list(map(int, input().split()))
 
 
 # --- filter() ---
@@ -112,9 +112,10 @@ print(res)
 print("--- Преобразуем код: ---")
 data3 = '1 2 3 2 56 45 78 456'.split()
 
-res = list(map(int, data3))
-res = filter(lambda x: not x % 2, res) # Получаем список только четных чисел
-res = list(map(lambda x: (x, x**2), res)) # Получаем кортеж числа и его квадрата
+res = list(map(int, data3)) # [1, 2, 3, 2, 56, 45, 78, 456]
+print(res)
+res = filter(lambda x: not x % 2, res) # Получаем список только четных чисел <filter object at 0x000001E903C0FA90>
+res = list(map(lambda x: (x, x**2), res)) # Получаем кортеж числа и его квадрата [(2, 4), (2, 4), (56, 3136), (78, 6084), (456, 207936)]
 print(res)
 
 # --- zip() --- пробегается по минимальному входящему набору

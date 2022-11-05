@@ -81,21 +81,21 @@ def empty_filtration(item: str):
 
 def element_to_tuple(item: str):
     x_match = False
-    c_str = ''
-    d_str = ''
+    coeff_str = ''
+    degree_str = ''
 
     for x in item:
         if x_match == False and x == 'x':
             x_match = True
-            d_str = x
+            degree_str = x
             continue
         
         if x_match:
-            d_str = d_str + x
+            degree_str = degree_str + x
         else:
-            c_str = c_str + x
+            coeff_str = coeff_str + x
     
-    return (c_str, d_str)
+    return (coeff_str, degree_str)
 
 def parse_coefficient(item: str):
     coefficient: int
@@ -170,4 +170,5 @@ def parse_element(item: tuple[str, str]):
     coefficient = parse_coefficient(coefficient)
     degree = parse_degree(degree)
 
-    return (coefficient, degree)
+    # return (coefficient, degree)
+    return (degree, coefficient)

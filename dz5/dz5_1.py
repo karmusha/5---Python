@@ -1,27 +1,27 @@
-# Вычислить число Пи c заданной точностью d
-# Пример:
-# при d = 0.001, π = 3.141
-# при d = 0.1, π = 3.1
-# при d = 0.00001, π = 3.14154
-# d от 0.1 до 0.0000000001
+# Напишите программу, удаляющую из текста все слова, содержащие ""абв"".
 
-# не использовать константу math.pi
-import sys
+with open('dz5_1.txt', mode='w', encoding='utf-8') as file:
+    file.writelines('абв, удклкт, вдлаабв, аб, 111\n')
+    file.writelines('екерр, rабв, абваб, 321\n')
 
-eps: float = 0.000001
+def has_no_abv(element):
+    for symbol in element:
+        if symbol == 'а':
+            continue
+        if symbol == 'б':
+            continue
+        if symbol == 'в':
+            return False
+    return True 
 
-i: int = 1
-x: float = sys.float_info.max
-y: float = 0
+path = 'dz5_1.txt'
+file = open(path, mode='r', encoding='utf-8')
+for line in file:
+    res = line.split(', ') # ['абв', 'удклкт', 'вдлаабв', 'аб', '111\n']
+    new_list = list(filter(has_no_abv, res)) # ['удклкт', 'аб', '111\n']
 
-while abs(x) >= eps:
-    x = 1.0 / (2 * i - 1)
-    y += x * (-1 if i % 2 == 0 else 1)
-
-    i += 1
-
-    if i % 100000 == 0:
-        print(f'p = {4 * y}')
-
-p = 4 * y
-print(4 * y)
+    with open('dz_5_1_result.txt', mode='a', encoding='utf-8') as rf:
+        new_list = ', '.join(new_list)
+        rf.writelines(new_list)
+        
+file.close()

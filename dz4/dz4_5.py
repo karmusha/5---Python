@@ -18,7 +18,9 @@
 # parse_formula      -> (5, 3), (1, 2), (-13, 1), (53, 0)
 
 from dz4_common import *
-from itertools import groupby, chain
+from itertools import groupby
+from pathlib import Path
+
 
 def parse_file_to_formulas(file_path: str):
     with open(file_path, mode='r', encoding='utf-8') as f: # Открываем файл на чтение
@@ -71,13 +73,22 @@ def formula_to_str(res):
 
 # ----------------------------------------
 
+folder = Path(__file__).parent
+file1 = folder.joinpath('dz4_5_1.txt')
+file2 = folder.joinpath('dz4_5_2.txt')
 
 res = concat_formulas(                      # объединяю все формулы в одну
-    *parse_file_to_formulas('dz4_5_1.txt'),
-    *parse_file_to_formulas('dz4_5_2.txt')
+    *parse_file_to_formulas(file1),
+    *parse_file_to_formulas(file2)
 )
 res = sum_coef_by_degree(res)               # суммирую коэффициенты с одинаковыми степенями
 res = formula_to_str(res)                   # формирую формулу в виде строки
 
 print('-----------')
 print('sum: ' + res)
+
+file_res = folder.joinpath('dz4_5_res.txt')
+with open(file_res, mode='w', encoding='utf-8') as f:
+    f.write(res)
+
+

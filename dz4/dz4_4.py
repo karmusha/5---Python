@@ -8,6 +8,7 @@
 # k=5 -> 3x⁵ + 5x⁴ - 6x³ - 3x = 0
 
 from random import Random
+from pathlib import Path
 from dz4_common import *
 
 def get_formula_elements(k: int):
@@ -46,5 +47,8 @@ res = map(map_sign, res)
 res = map(map_str, res)
 res = ' '.join(res) + ' = 0'
 
-with open('dz4_4.txt', mode='w') as func:
+file = Path(__file__)
+file = file.parent.joinpath('dz4_4.txt')
+
+with open(file, mode='w', encoding='utf-8') as func:
     func.write(res)

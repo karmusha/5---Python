@@ -1,4 +1,4 @@
-def filter_zero_coefficient(item):
+def filter_zero_coefficient(item: tuple[int, int]):
     if item is None:
         return False
     
@@ -9,6 +9,12 @@ def filter_zero_coefficient(item):
 
     return True
 
+def degree_formatter(number: int):
+    res = str(number)
+    res = map(lambda number: DEGREE_SYMBOLS[number], res)
+    res = ''.join(res)
+    return res
+
 def map_x(item: tuple[int, tuple[int, int]]):
     index, (coefficient, degree) = item
 
@@ -18,7 +24,7 @@ def map_x(item: tuple[int, tuple[int, int]]):
     elif degree == 1:
         element = element + 'x'
     else:
-        element = element + 'x^' + str(degree)
+        element = element + 'x' + degree_formatter(degree)
 
     return (index, coefficient, degree, element)
 
@@ -138,6 +144,18 @@ DEGERE_MATCH_SYMBOLS = {
     '\u2077': '7',
     '\u2078': '8',
     '\u2079': '9',
+}
+DEGREE_SYMBOLS = {
+    '0': '\u2070',
+    '1': '\u00B9',
+    '2': '\u00B2',
+    '3': '\u00B3',
+    '4': '\u2074',
+    '5': '\u2075',
+    '6': '\u2076',
+    '7': '\u2077',
+    '8': '\u2078',
+    '9': '\u2079',
 }
 
 def parse_degree(item: str):

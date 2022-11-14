@@ -5,12 +5,6 @@
 
 import random
 
-def exchange_player_names(player1_name, player2_name):
-    temp = player1_name
-    player1_name = player2_name
-    player2_name = temp
-    return player1_name, player2_name
-
 def get_ending_bonbons_may_take(bonbons):
     s = str(bonbons)
     if s[-1] == '1': return 'ы'
@@ -136,7 +130,7 @@ if player1 > player2:
 else:
     first_player = 2
     second_player = 1
-    player1_name, player2_name = exchange_player_names(player1_name, player2_name)
+    player1_name, player2_name = player2_name, player1_name
     print(f'{player1_name}, вы ходите первым.')
 
 player_name = player1_name
@@ -149,7 +143,7 @@ while bonbons > 0:
         break
     else:
         print(f'На столе осталось {bonbons} конфет{get_ending_bonbons_remained(bonbons)}.')
-    player_name, player2_name = exchange_player_names(player_name, player2_name)
+    player_name, player2_name = player2_name, player_name
 
 text = '''
      _   _______________   _       _   _______________   _       _   _______________   _              

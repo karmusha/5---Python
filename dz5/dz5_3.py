@@ -9,6 +9,7 @@
 #    --- --- ---
 
 import random
+from itertools import takewhile
 
 def out_green(text):
     print("\033[32m{}".format(text))
@@ -19,36 +20,41 @@ def print_mas(mas):
         print(' | '.join(list(map(str, line)))) # print('Как поменять цвет ' + '\033[96mодного\033[0m' + ' слова?')
         print("\033[0m{}".format('---------'))
 
-def exchange_player_names(player1_name, player2_name):
-    temp = player1_name
-    player1_name = player2_name
-    player2_name = temp
-    return player1_name, player2_name
+def get_winner(mas):
+    match mas:
+        case mas if mas[0][0] == mas[0][1] == mas[0][2] and mas[0][2] != ' ': return mas[0][2]
+        case mas if mas[1][0] == mas[1][1] == mas[1][2] and mas[1][2] != ' ': return mas[1][2]
+        case mas if mas[2][0] == mas[2][1] == mas[2][2] and mas[2][2] != ' ': return mas[2][2]
+        case mas if mas[0][0] == mas[1][0] == mas[2][0] and mas[2][0] != ' ': return mas[2][0]
+        case mas if mas[0][1] == mas[1][1] == mas[2][1] and mas[2][1] != ' ': return mas[2][1]
+        case mas if mas[0][2] == mas[1][2] == mas[2][2] and mas[2][2] != ' ': return mas[2][2]
 
-def win_case(mas):
-    match (mas):
-        case (mas) if mas[0][0] == mas[0][1] == mas[0][2]: return True
-        case (mas) if mas[1][0] == mas[1][1] == mas[1][2]: return True
-        case (mas) if mas[2][0] == mas[2][1] == mas[2][2]: return True
-        case (mas) if mas[0][0] == mas[1][0] == mas[2][0]: return True
-        case (mas) if mas[0][1] == mas[1][1] == mas[2][1]: return True
-        case (mas) if mas[0][2] == mas[1][2] == mas[2][2]: return True
-        case (mas) if mas[0][0] == mas[1][1] == mas[2][2]: return True
-        case (mas) if mas[0][2] == mas[1][1] == mas[2][0]: return True
-    return False
-
-
-def hod(player_number, player_name, mas):
-    if player_number == 1:
-        sign_name = 'крестик'
-        sign = 'x'
-    if player_number == 2:
-        sign_name = 'нолик'
-        sign = 'o'
+        case mas if mas[0][0] == mas[1][1] == mas[2][2] and mas[2][2] != ' ': return mas[2][2]
+        case mas if mas[0][2] == mas[1][1] == mas[2][0] and mas[2][2] != ' ': return mas[2][2]
     
+    return None
+
+def check_mas_filled(mas):
+    for line in mas:
+        for i in line:
+            if i == ' ':
+                return False
+    
+    return True
+
+def get_readble_sign(sign: str):
+    if sign ==  'x':
+        return 'крестик'
+    
+    if sign == 'o':
+        return 'нолик'
+
+    return 'unknown sign'
+
+def hod(player_name: str, sign: str, mas):
     while True:
         try:
-            i, j = tuple(map(int, input(f'{player_name}, ваш ход. Введите через запятую номер строки и столбика, куда хотите поставить {sign_name}.\n').split(",")))
+            i, j = tuple(map(int, input(f'{player_name}, ваш ход. Введите через запятую номер строки и столбика, куда хотите поставить {get_readble_sign(sign)}.\n').split(",")))
             if (i, j) == (0, 0):
                 print('No')
                 continue
@@ -57,7 +63,7 @@ def hod(player_number, player_name, mas):
             if mas[i][j] == 'x' or mas[i][j] == 'o':
                 print('Здесь уже занято. Попробуйте другое поле.')
                 continue
-            mas[i][j] = sign    
+            mas[i][j] = sign
         except ValueError:
             print('Вы ввели неверно. Попробуйте ещё раз.')
             continue
@@ -67,55 +73,77 @@ def hod(player_number, player_name, mas):
         break
     return mas
 
-# --- Жеребьевка ---
 
-# input('Сначала жеребьёвка, у кого выпадет большее число, тот ходит первым и ставит крестики. Нажмите Enter.')
-# player1_name = input('Игрок 1, введите своё имя:\n')
-# player2_name = input('Игрок 2, введите своё имя:\n')
+def get_player_name_by_sign(players, sign: str):
+    res = list(takewhile(lambda x: x[1] == sign, players))
+    return res[0][0]
 
-player1_name = 'Karma'
-player2_name = 'Sergey'
 
+def next_player_number(current_player_number: int):
+    res = 0
+    if current_player_number == 0:
+        res = 1
+    else:
+        res = 0
+    
+    return res
+
+
+# --- Game ---   
+print('КРЕСТИКИ НОЛИКИ')
+
+print(f'Игроки по очереди ставят на свободные клетки поля 3×3 знаки (один всегда крестики, другой всегда нолики). Первый, выстроивший в ряд 3 своих фигуры по вертикали, горизонтали или диагонали, выигрывает. Первый ход делает игрок, ставящий крестики.')
+
+player1 = input('Игрок 1, введите своё имя:\n')
+player2 = input('Игрок 2, введите своё имя:\n')
+
+# player1 = 'Karma'
+# player2 = 'Sergey'
+
+input('Кидаем жребий, у кого выпадет большее число, тот ходит первым и ставит крестики. Нажмите Enter.')
 while True:
     random_number1 = random.randint(1,6)
     random_number2 = random.randint(1,6)
-    if random_number1 != random_number2:
+
+    print(f'{player1} выпало: {random_number1}')
+    print(f'{player2} выпало: {random_number2}')
+
+    if random_number1 > random_number2:
+        player1, player2 = player1, player2
         break
+    elif random_number1 < random_number2:
+        player1, player2 = player2, player1
+        break
+    
+    input('кидаем жребий еще разок. Нажмите Enter')
 
-print(f'{player1_name}, вам выпало {random_number1}.')
-print(f'{player2_name}, вам выпало {random_number2}.')
-
-if random_number1 > random_number2:
-    first_player = 1
-    second_player = 2
-    print(f'{player1_name}, вы ходите первым.')
-else:
-    first_player = 2
-    second_player = 1
-    player1_name, player2_name = player2_name, player1_name
-    print(f'{player1_name}, вы ходите первым.')
-
-player_name = player1_name
-
-# --- Game ---   
-
-print(f'Игроки по очереди ставят на свободные клетки поля 3×3 знаки (один всегда крестики, другой всегда нолики). Первый, выстроивший в ряд 3 своих фигуры по вертикали, горизонтали или диагонали, выигрывает. Первый ход делает игрок, ставящий крестики.')
+players = [(player1, 'x'), (player2, 'o')]
 
 mas = [
     [' ', ' ', ' '], 
     [' ', ' ', ' '], 
-    [' ', ' ', ' ']]
+    [' ', ' ', ' '],
+]
 
 print_mas(mas)
 
-while not win_case(mas):
-    player_number = first_player
-    mas = hod(player_number, player_name, mas)
-    print_mas(mas)
-    player_name, player2_name = player2_name, player_name
-    first_player, second_player = second_player, first_player
+player_number = 0
+while True:
+    player, sign = players[player_number]
+    mas = hod(player, sign, mas)
 
-print(f'{player_name}, вы выиграли!')
+    print_mas(mas)
+
+    match get_winner(mas):
+        case sign if sign in ['x', 'o']:
+            print(f'{get_player_name_by_sign(players, sign)} победитель')
+            break
+        case None:
+            player_number = next_player_number(player_number)
+    
+    if check_mas_filled(mas):
+        print(f'ничья')
+        break
 
 print('Спасибо за игру!\n')
 input('Нажмите любую клавишу, чтобы выйти.')

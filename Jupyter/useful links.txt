@@ -1,0 +1,4 @@
+https://www.sympy.org/en/index.html
+https://matplotlib.org/
+
+https://numpy.org/

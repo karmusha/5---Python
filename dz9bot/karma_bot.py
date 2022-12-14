@@ -5,6 +5,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, ContextTypes, CallbackQueryHandler, MessageHandler, filters
 import os
 from pathlib import Path
+import requests
 
 api_key = '5463989628:AAHRIzmOhxMBdiWk3Gp_KE09Nu9oidOfg8U'
 
@@ -24,6 +25,12 @@ def sample_responses(input_text, effective_user):
     if user_message in ('ты кто', 'ты кто?', 'кто ты', 'кто ты?'):
         return 'Я бот Кармы.'
     
+    if user_message in ('курсы валют'):
+        rates_url = 'https://www.cbr-xml-daily.ru/latest.js'
+        res = requests.get(rates_url)
+        res = res.content.decode('utf-8')
+        return res
+    
     return 'Неизвестная команда.'
 
 print('Бот начал работу...')
@@ -34,7 +41,10 @@ async def start_command(update: Update, context):
             InlineKeyboardButton('Поздороваться', callback_data='привет'),
             InlineKeyboardButton('Спросить время', callback_data='время'),
         ],
-        [InlineKeyboardButton('Узнать, кто я', callback_data = 'ты кто')],
+        [
+            InlineKeyboardButton('Узнать, кто я', callback_data = 'ты кто'),
+            InlineKeyboardButton('Узнать курсы валют', callback_data = 'курсы валют'),
+        ],
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
 

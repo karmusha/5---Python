@@ -13,7 +13,7 @@ def check_value():
         number = input('Введите число от 1 до 999: ')
         if number.isdecimal() and MIN_N < (res := int(number)) < MAX_N:
             return res
-    print("Ошибка ввода числа")
+        print("Ошибка ввода числа")
 
 
 MIN_N = 0

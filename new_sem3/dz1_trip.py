@@ -9,7 +9,7 @@ people_and_things: dict = {'Ira': ('sleeping bag', 'cup', 'plate', 'sandals', 'g
                      'Petr': ('sleeping bag', 'cup', 'flashlight', 'tent', 'sandals', 'sandals'),
                      }
 
-print(f'{", ".join(people_and_things.keys())} went on a trip.')
+print(f'{", ".join(people_and_things)} went on a trip.')
 
 things_all_took = set()
 all_things = set()
@@ -29,13 +29,13 @@ for item in all_things:
     res = map(lambda x: x[0] if item in x[1] else None, people_and_things.items())
     res = filter(lambda x: True if x else False, res)
     res = list(res)
-    if (len(res) == 1):
+    if len(res) == 1:
         print(f'Only {res[0]} took {item}.')
     
     res = map(lambda x: x[0] if item not in x[1] else None, people_and_things.items())
     res = filter(lambda x: True if x else False, res)
     res = list(res)
-    if (len(res) == 1):
+    if len(res) == 1:
         print(f'{res[0]} took no {item}.')
     
 print(f'\nEveyone took the following things: {", ".join(things_all_took)}.')

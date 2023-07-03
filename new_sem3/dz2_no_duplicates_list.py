@@ -7,8 +7,8 @@ print(f'{numbers = }')
 
 res = []
 count = 0
-for value in numbers:
-    if numbers.count(value) > 1 and value not in res:
+for value in set(numbers):
+    if numbers.count(value) > 1:
         res.append(value)
 
 print(f'List of duplicates: {res}')

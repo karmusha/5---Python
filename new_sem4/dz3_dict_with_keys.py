@@ -13,8 +13,7 @@ res = {
 
 
 def args_to_dict(**kwargs) -> dict:
-    print(kwargs)
+    return {y:x for x,y in kwargs.items()}
 
 
-args_to_dict(**res)
-
+print(args_to_dict(**res))

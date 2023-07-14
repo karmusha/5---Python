@@ -14,10 +14,10 @@ def gen(n):
         w = False
         while not w:
             new_x, new_y = [int(s) for s in input(f"введите координаты {i} ферзя ").split()]
-            if new_x >= 1 and new_x <= 8 and new_y >= 1 and new_y <= 8:
+            if new_x >= 1 and new_x <= n and new_y >= 1 and new_y <= n:
                 w = True
             else:
-                print("пожалуйста введите координаты от 1 до 8")
+                print(f"пожалуйста введите координаты от 1 до {n}")
 
             if new_x in x and new_y in y:
                 w = False

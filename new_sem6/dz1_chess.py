@@ -5,25 +5,38 @@
 # Программа получает на вход восемь пар чисел, каждое число от 1 до 8 - координаты 8 ферзей.
 # Если ферзи не бьют друг друга верните истину, а если бьют - ложь.
 n = 8
-x = []
-y = []
 
-for i in range(1, n+1):
-    w = False
-    while not w:
-        new_x, new_y = [int(s) for s in input(f"введите координаты {i} ферзя ").split()]
-        if new_x >= 1 and new_x <= 8 and new_y >= 1 and new_y <= 8:
-            w = True
-        else:
-            print("пожалуйста введите координаты от 1 до 8")
-    
-    x.append(new_x)
-    y.append(new_y)
+def gen(n):
+    x = []
+    y = []
 
-cross = False
-for i in range(n):
-    for j in range(i + 1, n):
-        if x[i] == x[j] or y[i] == y[j] or abs(x[i] - x[j]) == abs(y[i] - y[j]):
-            cross = True
+    for i in range(1, n+1):
+        w = False
+        while not w:
+            new_x, new_y = [int(s) for s in input(f"введите координаты {i} ферзя ").split()]
+            if new_x >= 1 and new_x <= 8 and new_y >= 1 and new_y <= 8:
+                w = True
+            else:
+                print("пожалуйста введите координаты от 1 до 8")
 
-print(f"бьют друг друга: {cross}")
+            if new_x in x and new_y in y:
+                w = False
+                print("Занято другой фигурой, введите другие координаты")
+        
+        x.append(new_x)
+        y.append(new_y)
+
+    return x, y
+
+x, y = gen(n)
+
+def check(x: list, y: list):
+    cross = False
+    for i in range(n):
+        for j in range(i + 1, n):
+            if x[i] == x[j] or y[i] == y[j] or abs(x[i] - x[j]) == abs(y[i] - y[j]):
+                cross = True
+
+    return cross
+
+print(f"бьют друг друга: {check(x, y)}")

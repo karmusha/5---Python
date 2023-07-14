@@ -28,8 +28,6 @@ def gen(n):
 
     return x, y
 
-x, y = gen(n)
-
 def check(x: list, y: list):
     cross = False
     for i in range(n):
@@ -39,4 +37,7 @@ def check(x: list, y: list):
 
     return cross
 
-print(f"бьют друг друга: {check(x, y)}")
+
+if __name__ == "__main__":
+    x, y = gen(n)
+    print(f"бьют друг друга: {check(x, y)}")

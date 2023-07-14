@@ -10,6 +10,12 @@ def gen(n):
     x = []
     y = []
 
+    def validate(nx, ny):
+        for k in range(0, len(x)):
+            if (nx == x[k] and ny == y[k]) or (nx == y[k] and ny == x[k]):
+                return False
+        
+        return True
     for i in range(1, n+1):
         w = False
         while not w:
@@ -19,10 +25,9 @@ def gen(n):
             else:
                 print(f"пожалуйста введите координаты от 1 до {n}")
 
-            for k in range(0, len(x)):
-                if new_x == x[k] and new_y == y[k]:
-                    w = False
-                    print("Занято другой фигурой, введите другие координаты")
+            w = validate(new_x, new_y)
+            if not w:
+                print("Занято другой фигурой, введите другие координаты")
         
         x.append(new_x)
         y.append(new_y)
@@ -41,4 +46,7 @@ def check(x: list, y: list):
 
 if __name__ == "__main__":
     x, y = gen(n)
-    print(f"бьют друг друга: {check(x, y)}")
+    if check(x, y):
+        print(f"не бьют друг друга")
+    else:
+        print(f"бьют друг друга")

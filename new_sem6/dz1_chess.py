@@ -19,9 +19,10 @@ def gen(n):
             else:
                 print(f"пожалуйста введите координаты от 1 до {n}")
 
-            if new_x in x and new_y in y:
-                w = False
-                print("Занято другой фигурой, введите другие координаты")
+            for k in range(0, len(x)):
+                if new_x == x[k] and new_y == y[k]:
+                    w = False
+                    print("Занято другой фигурой, введите другие координаты")
         
         x.append(new_x)
         y.append(new_y)
@@ -29,11 +30,11 @@ def gen(n):
     return x, y
 
 def check(x: list, y: list):
-    cross = False
+    cross = True
     for i in range(n):
         for j in range(i + 1, n):
             if x[i] == x[j] or y[i] == y[j] or abs(x[i] - x[j]) == abs(y[i] - y[j]):
-                cross = True
+                cross = False
 
     return cross
 

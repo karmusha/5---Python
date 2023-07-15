@@ -5,14 +5,6 @@
 
 from random import randint
 
-class LowerLimitException(Exception):
-    'Raised when the input value is more than LOWER_LIMIT'
-    pass
-
-class UpperLimitException(Exception):
-    'Raised when the input value is more than UPPER_LIMIT'
-    pass
-
 LOWER_LIMIT = 0
 UPPER_LIMIT = 1000
 TRY_NUMBER = 10
@@ -23,33 +15,21 @@ print('Угадайте, какое число загадал Вася. У ва�
 
 count = 0
 while count < TRY_NUMBER:
-    try:
-        count += 1
-        number = int(input(f'Попытка номер {count}.\nВведите число от {LOWER_LIMIT} до {UPPER_LIMIT}: '))
-        
-        if number == num:
-            print(f'Ура! Вы угадали, Вася загадал число {num}')
-            exit()
-        elif number < num:
-            print('больше')
-            continue
-        elif number > num:
-            print('меньше')
-            continue
-         
-        if number < LOWER_LIMIT:
-            raise LowerLimitException
-        if number > UPPER_LIMIT:
-            raise UpperLimitException
-        
-    except LowerLimitException:
-        print(f'Числа меньше {LOWER_LIMIT} вводить нельзя.')
+    count += 1
+    number = int(input(f'Попытка номер {count}.\nВведите число от {LOWER_LIMIT} до {UPPER_LIMIT}: '))
+    
+    if number == num:
+        print(f'Ура! Вы угадали, Вася загадал число {num}')
+        exit()
+    elif number < num:
+        print('больше')
         continue
-    except UpperLimitException:
-        print(f'Числа больше {UPPER_LIMIT} вводить нельзя.')
+    elif number > num:
+        print('меньше')
         continue
-    except Exception:
-        print('Что-то пошло не так, попробуйте ещё раз.')
+        
+    if number < LOWER_LIMIT or number > UPPER_LIMIT:
+        (f'Числа меньше {LOWER_LIMIT} и больше {UPPER_LIMIT} вводить нельзя.')
         continue
     break
 

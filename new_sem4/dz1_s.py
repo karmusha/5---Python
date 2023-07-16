@@ -2,13 +2,6 @@
 # Напишите функцию, которая при запуске заменяет содержимое переменных, оканчивающихся на s (кроме переменной из одной буквы s) на None.
 # Значения не удаляются, а помещаются в одноимённые переменные без s на конце.
 
-names = ['Ira', 'Elena', 'Petr']
-companies = {'Nokia': [100, 500], 'Lowa': [800, 100], 'Ararat': [-800, 100],}
-rate = [100_000, 110_000, 150_000]
-a = 5
-s = -10
-cas, da, etuple = 1.01, 'ogogo', (2, 48)
-
 def replace_vars_with_s_ending():
     z = list(map(lambda x : x if x[0] not in '_' else None, globals().keys()))
     print(z)
@@ -19,6 +12,14 @@ def replace_vars_with_s_ending():
 
             globals()[var_name] = None
             print(f'{replaced_var_name} = {globals()[replaced_var_name]}')
+
+
+names = ['Ira', 'Elena', 'Petr']
+companies = {'Nokia': [100, 500], 'Lowa': [800, 100], 'Ararat': [-800, 100],}
+rate = [100_000, 110_000, 150_000]
+a = 5
+s = -10
+cas, da, etuple = 1.01, 'ogogo', (2, 48)
 
 replace_vars_with_s_ending()
 

@@ -11,7 +11,7 @@ def gen(n):
     y = []
 
     def validate(nx, ny):
-        for k in range(0, len(x)):
+        for k in range(len(x)):
             if (nx == x[k] and ny == y[k]) or (nx == y[k] and ny == x[k]):
                 return False
         

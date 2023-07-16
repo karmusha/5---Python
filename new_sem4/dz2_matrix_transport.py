@@ -1,5 +1,9 @@
 # Напишите функцию для транспонирования матрицы
 
+def transpose_matrix(matrix):
+    return map(lambda x: list(x), zip(*mat))
+
+
 mat = [[1, 2, 3],
        [44, 55, 66],
        [777, 888, 999],
@@ -9,14 +13,8 @@ print("Your matrix: ")
 for i in mat:
     print(i)
 
-def transpose_matrix(matrix):
-    trans_matrix = [[0 for _ in range(len(matrix))] for _ in range(len(matrix[0]))]
-    for a in range(len(matrix)):
-        for b in range(len(matrix[0])):
-            trans_matrix[b][a] = matrix[a][b]
+new_mat = transpose_matrix(mat)
 
-    print("A transposed matrix: ")
-    for i in trans_matrix:
-        print(i)
-
-transpose_matrix(mat)
+print("Your new matrix: ")
+for i in new_mat:
+    print(i)

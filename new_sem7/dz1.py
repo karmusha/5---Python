@@ -5,3 +5,7 @@
 #   Переименование должно работать только для этих файлов внутри каталога.
 # * принимать в качестве аргумента расширение конечного файла.
 # Шаблон переименованного файла: <original_name>_<new_name>_<position>.<new_extention>
+
+from pack7 import module_rename_files as mrf
+
+mrf.rename_files('new', 'txt', 'docx')

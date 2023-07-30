@@ -16,9 +16,12 @@ class Matrix:
     def __str__(self):
         """Вывод матрицы на печать для пользователя."""
 
-
         return '[' + ']\n['.join('\t'.join(map(str, row)) for row in self.matrix) + ']'
+
     
+    def __repr__(self) -> str:
+        return '\n' + self.__str__()
+
     def __getitem__(self, index):
         return self.matrix[index]
     
@@ -113,12 +116,12 @@ if __name__ == '__main__':
         [3, 3, 3]
     ])
 
-    print(m1)
-    print(m2)
-    print(m3)
+    print(f'{m1 = }')
+    print(f'{m2 = }')
+    print(f'{m3 = }')
 
     print(f'{m1 == m2 = }')
     print(f'{m1 == m3 = }')
 
-    print(f'Сложение:\n{m1 + m2}')
-    print(f'Умножение:\n{m1 * m2}')
+    print(f'{m1 + m2 = }')
+    print(f'{m1 * m2 = }')

@@ -34,7 +34,7 @@ class Range_Note:
 
     @staticmethod
     def validate(value: float, start, stop):
-        if value < start or value > stop:
+        if not start <= value <= stop:
             raise ValueError('Wrong value.')
         
 class Range:

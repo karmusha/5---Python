@@ -54,8 +54,8 @@ class Range_Name:
 
 class User:
 
-    name = Range_Name()
-    user_id = Range(1, 7)
+    # name = Range_Name()
+    # user_id = Range(1, 7)
 
     def __init__(self, name, user_id, level):
         self.name = name
@@ -63,7 +63,9 @@ class User:
         self.level = level
     
     def __eq__(self, other):
-        return self.name == other.name and self.user_id == other.user_id
+        res = self.name == other.name
+        res2 = self.user_id == other.user_id
+        return res and res2
     
     def __repr__(self):
         return f'User({self.name}, {self.user_id}, {self.level})'

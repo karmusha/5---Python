@@ -15,8 +15,8 @@
 # Передавайте необходимые данные из основного кода проекта.
 
 import json
-from MyExceptions import AccessException, LevelException
-from User import User
+from new_sem13_exceptions.pack13.MyExceptions import AccessException, LevelException
+from new_sem13_exceptions.pack13.User import User
 
 class Project:
 
@@ -25,6 +25,10 @@ class Project:
             self.users_list = []
         self.users_list = users_list
         self.admin = None        
+
+    def __eq__(self, __value: object) -> bool:
+        if self.users_list == __value.users_list and self.admin == __value.admin:
+            return True
 
     @classmethod
     def get_users_list_from_json(cls, file_name: str):
@@ -35,6 +39,7 @@ class Project:
             for user_id, name in users.items():
                 user = User(name, user_id, level)
                 users_list.append(user)
+        print(users_list)
         return Project(users_list)
 
     def __enter__(self):
@@ -71,7 +76,7 @@ class Project:
             print('No such user in the list.')
 
     def __exit__(self, ext_type, ext_value, traceback):
-        self.file = open('users.json', 'w', encoding='utf-8')
+        self.file = open('users_res.json', 'w', encoding='utf-8')
         json.dump([repr(user) for user in self.users_list], self.file, ensure_ascii=False) # Вот тут неправильно формируется словарь
         self.file.close()
     

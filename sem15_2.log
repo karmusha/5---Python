@@ -1,0 +1,3 @@
+2023-08-15 14:28:46,793INFO wrapper->19:function discriminant was called with arguments (1, 0, 5.5) with result None.
+2023-08-15 14:29:21,401INFO wrapper->19:function discriminant was called with arguments (1, 55, 5.5) with result (-0.1001824823594859, -54.899817517640514).
+2023-08-15 14:29:40,188 - INFO  - wrapper -> 19: function discriminant was called with arguments (1, 55, 5.5) with result (-0.1001824823594859, -54.899817517640514).

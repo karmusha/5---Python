@@ -7,6 +7,9 @@
 
 {% block content %}
     <div>
-        <h1>Everyone has Karma!</h1>
+        {% for item in data %}
+            <p>{{ item.year }}</p>
+            <p>{{ item.info }}</p><br>
+        {% endfor %}
     </div>
 {% endblock %}

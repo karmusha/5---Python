@@ -2,18 +2,18 @@
 <html lang="ru">
 <table>
     <tr>
-        <th>First name</th>
-        <th>Last name</th>
-        <th>Age</th>
-        <th>Average grade</th>
+        <th>Title</th>
+        <th>Short description</th>
+        <th>Date</th>
+        <th>Full text</th>
     </tr>
     <tbody>
-        {% for student in students %}
+        {% for item in news %}
             <tr>
-                <td>{{ student.fname }}</td>
-                <td>{{ student.lname }}</td>
-                <td>{{ student.age }}</td>
-                <td>{{ student.avg_grade }}</td>
+                <td>{{ item.title }}</td>
+                <td>{{ item.short }}</td>
+                <td>{{ item.date }}</td>
+                <td>{{ item.text }}</td>
             </tr>
         {% endfor %}
     </tbody>

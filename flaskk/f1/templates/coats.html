@@ -1,0 +1,17 @@
+{% extends 'basekarma.html' %}
+        
+{% block title %}
+    {{ super() }} - {{ title }}
+{% endblock %}
+    
+
+{% block content %}
+    <div class="row">
+        <h1>{{ title }}</h1>
+        {% for item in coats %}
+            <div class="col-12 col-md-6 col-lg-4">
+                <p>{{ item.id }}: {{ item.name }} - {{ item.description }}</p>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

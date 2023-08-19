@@ -1,0 +1,19 @@
+{% extends 'basekarma.html' %}
+        
+{% block title %}
+    {{ super() }} - {{ title }}
+{% endblock %}
+    
+
+{% block content %}
+    <div class="row">
+        <h1 class="text-monospace text-center">{{ title }}</h1>
+            {% for contact in contacts %}
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h2>{{ contact.name }}</h2>
+                    <p>{{ contact.mail }}</p>
+                    <p>{{ contact.phone }}</p>
+                </div>
+            {% endfor %}
+    </div>
+{% endblock %}

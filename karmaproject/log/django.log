@@ -1,18 +1,43 @@
-Watching for file changes with StatReloader
-C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\karmaproject\urls.py changed, reloading.
-Watching for file changes with StatReloader
-"GET /p/ HTTP/1.1" 200 13
-"GET /p/about HTTP/1.1" 301 0
-"GET /p/about/ HTTP/1.1" 200 27
-C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\karmaproject\settings.py changed, reloading.
-Watching for file changes with StatReloader
-C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\karmaproject\settings.py changed, reloading.
-Watching for file changes with StatReloader
-C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\karmaproject\settings.py changed, reloading.
-INFO 2023-09-11 15:24:54,543 autoreload 32988 27024 Watching for file changes with StatReloader
-INFO 2023-09-11 15:25:14,191 autoreload 32988 27024 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\karmaproject\settings.py changed, reloading.
-INFO 2023-09-11 15:25:14,547 autoreload 19248 32660 Watching for file changes with StatReloader
-INFO 2023-09-11 15:25:19,855 basehttp 19248 31960 "GET /p/about/ HTTP/1.1" 200 27
-INFO 2023-09-11 15:25:22,887 basehttp 19248 31960 "GET /p/ HTTP/1.1" 200 13
-INFO 2023-09-11 15:27:28,084 autoreload 19248 32660 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\karmaapp\views.py changed, reloading.
-INFO 2023-09-11 15:27:28,435 autoreload 3784 10888 Watching for file changes with StatReloader
+INFO 2023-09-11 15:50:54,867 views 25148 14312 Main page accessed
+ERROR 2023-09-11 15:51:33,318 views 25148 18504 Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py", line 15, in about
+    result = 1 / 0
+ZeroDivisionError: division by zero
+INFO 2023-09-11 15:53:07,839 autoreload 12748 14036 Watching for file changes with StatReloader
+INFO 2023-09-11 15:53:09,959 basehttp 12748 19596 "GET /dz/about/ HTTP/1.1" 200 27
+INFO 2023-09-11 15:53:22,425 autoreload 12748 14036 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\karmaproject\settings.py changed, reloading.
+INFO 2023-09-11 15:53:22,768 autoreload 17604 21948 Watching for file changes with StatReloader
+INFO 2023-09-11 15:54:31,497 autoreload 17604 21948 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\karmaproject\urls.py changed, reloading.
+INFO 2023-09-11 15:54:31,843 autoreload 9064 17312 Watching for file changes with StatReloader
+INFO 2023-09-11 15:54:35,099 autoreload 9064 17312 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\karmaproject\settings.py changed, reloading.
+INFO 2023-09-11 15:54:35,437 autoreload 6864 33948 Watching for file changes with StatReloader
+INFO 2023-09-11 15:55:24,708 autoreload 6864 33948 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-11 15:55:25,050 autoreload 19232 20916 Watching for file changes with StatReloader
+INFO 2023-09-11 15:56:44,136 autoreload 19232 20916 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\karmaproject\settings.py changed, reloading.
+INFO 2023-09-11 15:56:44,467 autoreload 30052 14256 Watching for file changes with StatReloader
+INFO 2023-09-11 15:57:01,035 autoreload 30052 14256 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\karmaproject\settings.py changed, reloading.
+INFO 2023-09-11 15:57:01,380 autoreload 33768 19340 Watching for file changes with StatReloader
+INFO 2023-09-11 15:58:54,129 autoreload 33768 19340 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-11 15:58:54,486 autoreload 25520 22828 Watching for file changes with StatReloader
+INFO 2023-09-11 15:58:59,867 basehttp 25520 11480 "GET /dz/ HTTP/1.1" 200 35
+INFO 2023-09-11 16:01:46,626 autoreload 25520 22828 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-11 16:01:47,013 autoreload 12252 11324 Watching for file changes with StatReloader
+INFO 2023-09-11 16:01:51,106 basehttp 12252 22772 "GET /dz/about/ HTTP/1.1" 200 95
+INFO 2023-09-11 16:01:59,547 autoreload 12252 11324 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-11 16:01:59,921 autoreload 32796 16240 Watching for file changes with StatReloader
+INFO 2023-09-11 16:02:02,662 basehttp 32796 25340 "GET /dz/about/ HTTP/1.1" 200 96
+INFO 2023-09-11 16:02:04,267 basehttp 32796 25340 "GET /dz/about/ HTTP/1.1" 200 96
+INFO 2023-09-11 16:02:06,491 basehttp 32796 25340 "GET /dz/about/ HTTP/1.1" 200 96
+INFO 2023-09-11 16:02:30,881 autoreload 32796 16240 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-11 16:02:31,216 autoreload 20460 10436 Watching for file changes with StatReloader
+INFO 2023-09-11 16:02:39,593 autoreload 20460 10436 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-11 16:02:39,943 autoreload 26356 13980 Watching for file changes with StatReloader
+INFO 2023-09-11 16:02:42,683 basehttp 26356 21048 "GET /dz/about/ HTTP/1.1" 200 99
+INFO 2023-09-11 16:03:10,908 autoreload 26356 13980 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-11 16:03:11,313 autoreload 35716 35836 Watching for file changes with StatReloader
+INFO 2023-09-11 16:03:12,195 basehttp 35716 6216 "GET /dz/about/ HTTP/1.1" 200 108
+INFO 2023-09-11 16:03:34,014 autoreload 35716 35836 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-11 16:03:34,350 autoreload 36724 12984 Watching for file changes with StatReloader
+INFO 2023-09-11 16:03:51,931 autoreload 36724 12984 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-11 16:03:52,309 autoreload 36392 23960 Watching for file changes with StatReloader

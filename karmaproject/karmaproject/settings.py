@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    '192.168.0.101', 
+    # '192.168.0.101', 
 ]
 
 
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'karmaapp',
+    'dz_karmaapp',
 ]
 
 MIDDLEWARE = [
@@ -149,14 +150,29 @@ LOGGING = {
                 'filename': './log/django.log',
                 'formatter': 'verbose',
         },
+            'file_lec': { 
+                'class': 'logging.FileHandler',
+                'filename': './log/karmaapp.log',
+                'formatter': 'verbose',
+        },
+            'file_dz': { 
+                'class': 'logging.FileHandler',
+                'filename': './log/dz_karmaapp.log',
+                'formatter': 'verbose',
+        },
     },
     'loggers': {
         'django': {
             'handlers': ['console', 'file'],
             'level': 'INFO',
         },
-        'myapp': {
-            'handlers': ['console', 'file'],
+        'karmaapp': {
+            'handlers': ['console', 'file_lec'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'dz_karmaapp': {
+            'handlers': ['console', 'file_dz'],
             'level': 'DEBUG',
             'propagate': True,
         },

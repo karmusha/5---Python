@@ -1,0 +1,12 @@
+ERROR 2023-09-11 15:53:09,958 views 12748 19596 Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py", line 15, in about
+    result = 1 / 0
+ZeroDivisionError: division by zero
+INFO 2023-09-11 15:58:59,866 views 25520 11480 Main page accessed
+DEBUG 2023-09-11 16:01:51,105 views 12252 22772 About page accessed
+DEBUG 2023-09-11 16:02:02,661 views 32796 25340 About page accessed
+DEBUG 2023-09-11 16:02:04,267 views 32796 25340 About page accessed
+DEBUG 2023-09-11 16:02:06,489 views 32796 25340 About page accessed
+DEBUG 2023-09-11 16:02:42,682 views 26356 21048 About page accessed
+DEBUG 2023-09-11 16:03:12,194 views 35716 6216 About page accessed

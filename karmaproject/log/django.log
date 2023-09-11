@@ -1,0 +1,18 @@
+Watching for file changes with StatReloader
+C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\karmaproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /p/ HTTP/1.1" 200 13
+"GET /p/about HTTP/1.1" 301 0
+"GET /p/about/ HTTP/1.1" 200 27
+C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\karmaproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\karmaproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\karmaproject\settings.py changed, reloading.
+INFO 2023-09-11 15:24:54,543 autoreload 32988 27024 Watching for file changes with StatReloader
+INFO 2023-09-11 15:25:14,191 autoreload 32988 27024 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\karmaproject\settings.py changed, reloading.
+INFO 2023-09-11 15:25:14,547 autoreload 19248 32660 Watching for file changes with StatReloader
+INFO 2023-09-11 15:25:19,855 basehttp 19248 31960 "GET /p/about/ HTTP/1.1" 200 27
+INFO 2023-09-11 15:25:22,887 basehttp 19248 31960 "GET /p/ HTTP/1.1" 200 13
+INFO 2023-09-11 15:27:28,084 autoreload 19248 32660 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\karmaapp\views.py changed, reloading.
+INFO 2023-09-11 15:27:28,435 autoreload 3784 10888 Watching for file changes with StatReloader

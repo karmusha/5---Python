@@ -26,6 +26,18 @@
             ],
             "jinja": true,
             "justMyCode": true
+        },{
+            "name": "Python: Django",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "cwd": "${workspaceFolder}/flaskk/fastAPI",
+            "args": [
+                "final_dz:app",
+                "--reload",
+            ],
+            "jinja": true,
+            "justMyCode": true
         },
     ]
 }

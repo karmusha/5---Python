@@ -41,3 +41,6 @@ INFO 2023-09-11 16:03:34,014 autoreload 35716 35836 C:\Users\karmu\Desktop\STUDI
 INFO 2023-09-11 16:03:34,350 autoreload 36724 12984 Watching for file changes with StatReloader
 INFO 2023-09-11 16:03:51,931 autoreload 36724 12984 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
 INFO 2023-09-11 16:03:52,309 autoreload 36392 23960 Watching for file changes with StatReloader
+INFO 2023-09-11 16:03:53,950 basehttp 36392 8540 "GET /dz/about/ HTTP/1.1" 200 106
+INFO 2023-09-14 15:31:35,174 autoreload 2444 21040 Watching for file changes with StatReloader
+INFO 2023-09-14 15:32:39,553 autoreload 15692 20896 Watching for file changes with StatReloader

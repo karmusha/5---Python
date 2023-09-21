@@ -11,3 +11,7 @@ DEBUG 2023-09-11 16:02:06,489 views 32796 25340 About page accessed
 DEBUG 2023-09-11 16:02:42,682 views 26356 21048 About page accessed
 DEBUG 2023-09-11 16:03:12,194 views 35716 6216 About page accessed
 DEBUG 2023-09-11 16:03:53,949 views 36392 8540 About page accessed
+INFO 2023-09-20 13:54:05,060 views 21992 14704 Main page accessed
+DEBUG 2023-09-20 13:54:40,392 views 21992 15552 About page accessed
+INFO 2023-09-21 18:37:33,313 views 6560 14676 Got: form.cleaned_data={'name': 'Ola', 'description': 'egethsrj', 'price': Decimal('444'), 'foto': <TemporaryUploadedFile: IMG_20200327_135719.jpg (image/jpeg)>, 'quantity': 44}
+INFO 2023-09-21 18:38:06,202 views 6560 14676 Client: name='cmdgmdgm', email='ererg@vk.team', tel='5635636', address='thdk.jdjn'

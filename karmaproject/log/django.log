@@ -44,3 +44,295 @@ INFO 2023-09-11 16:03:52,309 autoreload 36392 23960 Watching for file changes wi
 INFO 2023-09-11 16:03:53,950 basehttp 36392 8540 "GET /dz/about/ HTTP/1.1" 200 106
 INFO 2023-09-14 15:31:35,174 autoreload 2444 21040 Watching for file changes with StatReloader
 INFO 2023-09-14 15:32:39,553 autoreload 15692 20896 Watching for file changes with StatReloader
+INFO 2023-09-20 13:45:50,311 autoreload 1956 23516 Watching for file changes with StatReloader
+INFO 2023-09-20 13:53:04,785 autoreload 1956 23516 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-20 13:53:05,170 autoreload 23252 2588 Watching for file changes with StatReloader
+INFO 2023-09-20 13:53:16,458 autoreload 23252 2588 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-20 13:53:16,795 autoreload 23412 24552 Watching for file changes with StatReloader
+INFO 2023-09-20 13:53:24,034 autoreload 23412 24552 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-20 13:53:24,385 autoreload 21992 28248 Watching for file changes with StatReloader
+INFO 2023-09-20 13:53:29,097 basehttp 21992 22756 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-20 13:53:29,622 log 21992 22756 Not Found: /favicon.ico
+WARNING 2023-09-20 13:53:29,623 basehttp 21992 22756 "GET /favicon.ico HTTP/1.1" 404 2547
+WARNING 2023-09-20 13:53:35,457 log 21992 22756 Not Found: /client/add
+WARNING 2023-09-20 13:53:35,457 basehttp 21992 22756 "GET /client/add HTTP/1.1" 404 2544
+INFO 2023-09-20 13:53:49,994 basehttp 21992 22756 "GET /dz/client/add HTTP/1.1" 301 0
+ERROR 2023-09-20 13:53:50,025 log 21992 22872 Internal Server Error: /dz/client/add/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py", line 45, in client_form
+    return render(request, 'dz_karmaapp/client_form.html', {'form': form})
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: dz_karmaapp/client_form.html
+ERROR 2023-09-20 13:53:50,026 basehttp 21992 22872 "GET /dz/client/add/ HTTP/1.1" 500 84023
+INFO 2023-09-20 13:54:05,058 basehttp 21992 22872 "GET /dz HTTP/1.1" 301 0
+INFO 2023-09-20 13:54:05,061 basehttp 21992 14704 "GET /dz/ HTTP/1.1" 200 35
+INFO 2023-09-20 13:54:40,390 basehttp 21992 14704 "GET /dz/about HTTP/1.1" 301 0
+INFO 2023-09-20 13:54:40,393 basehttp 21992 15552 "GET /dz/about/ HTTP/1.1" 200 106
+ERROR 2023-09-20 13:54:46,731 log 21992 15552 Internal Server Error: /dz/client/add/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py", line 45, in client_form
+    return render(request, 'dz_karmaapp/client_form.html', {'form': form})
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: dz_karmaapp/client_form.html
+ERROR 2023-09-20 13:54:46,733 basehttp 21992 15552 "GET /dz/client/add/ HTTP/1.1" 500 84023
+ERROR 2023-09-20 13:59:15,597 log 21992 15552 Internal Server Error: /dz/client/add/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'end'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py", line 45, in client_form
+    return render(request, 'dz_karmaapp/client_form.html', {'form': form})
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'end', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2023-09-20 13:59:15,601 basehttp 21992 15552 "GET /dz/client/add/ HTTP/1.1" 500 175218
+INFO 2023-09-20 13:59:48,475 basehttp 21992 15552 "GET /dz/client/add/ HTTP/1.1" 200 832
+INFO 2023-09-20 14:09:21,090 basehttp 21992 20148 "GET /dz/client/add/ HTTP/1.1" 200 1078
+ERROR 2023-09-20 14:09:30,724 log 21992 20148 Internal Server Error: /dz/client/add/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py", line 39, in client_form
+    address = form.cleaned_data['address']
+KeyError: 'address'
+ERROR 2023-09-20 14:09:30,725 basehttp 21992 20148 "POST /dz/client/add/ HTTP/1.1" 500 71957
+INFO 2023-09-20 14:09:38,926 basehttp 21992 20148 "GET /dz/client/add/ HTTP/1.1" 200 1078
+INFO 2023-09-21 13:34:48,648 autoreload 21992 28248 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\forms.py changed, reloading.
+INFO 2023-09-21 13:34:49,279 autoreload 23964 23960 Watching for file changes with StatReloader
+INFO 2023-09-21 14:06:01,448 autoreload 23964 23960 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-21 14:06:01,838 autoreload 6184 10992 Watching for file changes with StatReloader
+INFO 2023-09-21 14:07:24,496 autoreload 6184 10992 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\forms.py changed, reloading.
+INFO 2023-09-21 14:07:24,918 autoreload 27348 24976 Watching for file changes with StatReloader
+INFO 2023-09-21 14:08:06,814 autoreload 27348 24976 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\forms.py changed, reloading.
+INFO 2023-09-21 14:08:07,174 autoreload 22976 6580 Watching for file changes with StatReloader
+INFO 2023-09-21 15:29:18,391 autoreload 22976 6580 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\forms.py changed, reloading.
+INFO 2023-09-21 15:29:18,845 autoreload 7360 28800 Watching for file changes with StatReloader
+INFO 2023-09-21 15:29:22,016 autoreload 7360 28800 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\forms.py changed, reloading.
+INFO 2023-09-21 15:29:22,432 autoreload 26496 26480 Watching for file changes with StatReloader
+INFO 2023-09-21 16:12:37,693 autoreload 21404 26116 Watching for file changes with StatReloader
+INFO 2023-09-21 16:18:07,057 autoreload 21404 26116 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-21 16:18:07,451 autoreload 12516 29928 Watching for file changes with StatReloader
+INFO 2023-09-21 16:18:58,743 autoreload 12516 29928 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-21 16:18:59,098 autoreload 31244 21056 Watching for file changes with StatReloader
+INFO 2023-09-21 16:19:33,000 autoreload 31244 21056 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\forms.py changed, reloading.
+INFO 2023-09-21 16:19:33,401 autoreload 22868 21904 Watching for file changes with StatReloader
+INFO 2023-09-21 16:20:54,238 autoreload 22868 21904 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-21 16:20:54,609 autoreload 31464 25672 Watching for file changes with StatReloader
+INFO 2023-09-21 16:21:07,426 autoreload 600 29360 Watching for file changes with StatReloader
+INFO 2023-09-21 16:21:27,900 autoreload 18880 18108 Watching for file changes with StatReloader
+INFO 2023-09-21 16:21:37,246 basehttp 18880 27692 "GET /dz/product/add/ HTTP/1.1" 200 1123
+INFO 2023-09-21 16:21:58,326 basehttp 18880 27692 "POST /dz/product/add/ HTTP/1.1" 200 1217
+INFO 2023-09-21 16:22:10,579 basehttp 18880 27692 "POST /dz/product/add/ HTTP/1.1" 200 1214
+INFO 2023-09-21 16:22:20,008 basehttp 18880 27692 "POST /dz/product/add/ HTTP/1.1" 200 1214
+INFO 2023-09-21 17:34:06,762 autoreload 18880 18108 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\forms.py changed, reloading.
+INFO 2023-09-21 17:34:07,211 autoreload 19452 27044 Watching for file changes with StatReloader
+INFO 2023-09-21 17:34:13,457 autoreload 19452 27044 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\forms.py changed, reloading.
+INFO 2023-09-21 17:34:13,851 autoreload 28728 25476 Watching for file changes with StatReloader
+INFO 2023-09-21 17:37:56,463 autoreload 28728 25476 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\forms.py changed, reloading.
+INFO 2023-09-21 17:37:56,837 autoreload 23208 26456 Watching for file changes with StatReloader
+INFO 2023-09-21 17:48:43,539 autoreload 23916 21620 Watching for file changes with StatReloader
+INFO 2023-09-21 17:48:50,370 basehttp 23916 24368 "GET /dz/product/add/ HTTP/1.1" 200 1123
+INFO 2023-09-21 17:49:01,312 basehttp 23916 24368 "POST /dz/product/add/ HTTP/1.1" 200 1217
+INFO 2023-09-21 17:49:12,286 basehttp 23916 24368 "POST /dz/product/add/ HTTP/1.1" 200 1219
+WARNING 2023-09-21 17:49:23,797 log 23916 24368 Not Found: /dz/user/add
+WARNING 2023-09-21 17:49:23,797 basehttp 23916 24368 "GET /dz/user/add HTTP/1.1" 404 3350
+INFO 2023-09-21 17:49:27,250 basehttp 23916 24368 "GET /dz/client/add HTTP/1.1" 301 0
+INFO 2023-09-21 17:49:27,257 basehttp 23916 18232 "GET /dz/client/add/ HTTP/1.1" 200 1083
+ERROR 2023-09-21 17:50:01,867 log 23916 18232 Internal Server Error: /dz/client/add/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py", line 39, in client_form
+    address = form.cleaned_data['address']
+KeyError: 'address'
+ERROR 2023-09-21 17:50:01,868 basehttp 23916 18232 "POST /dz/client/add/ HTTP/1.1" 500 71863
+INFO 2023-09-21 17:51:25,172 autoreload 23916 21620 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\migrations\0001_initial.py changed, reloading.
+INFO 2023-09-21 17:51:25,538 autoreload 18928 25884 Watching for file changes with StatReloader
+INFO 2023-09-21 17:51:45,127 autoreload 18928 25884 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\migrations\0001_initial.py changed, reloading.
+INFO 2023-09-21 17:51:45,480 autoreload 28848 25672 Watching for file changes with StatReloader
+INFO 2023-09-21 17:52:40,753 autoreload 28848 25672 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\migrations\0001_initial.py changed, reloading.
+INFO 2023-09-21 17:52:41,109 autoreload 26372 31660 Watching for file changes with StatReloader
+INFO 2023-09-21 17:54:38,059 autoreload 30332 25580 Watching for file changes with StatReloader
+ERROR 2023-09-21 17:54:45,356 log 30332 14580 Internal Server Error: /dz/client/add/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py", line 39, in client_form
+    address = form.cleaned_data['address']
+KeyError: 'address'
+ERROR 2023-09-21 17:54:45,357 basehttp 30332 14580 "POST /dz/client/add/ HTTP/1.1" 500 71863
+INFO 2023-09-21 17:57:36,298 basehttp 30332 14580 "GET /dz/product/add/ HTTP/1.1" 200 1123
+INFO 2023-09-21 17:57:42,539 basehttp 30332 14580 "GET /dz/client/add/ HTTP/1.1" 200 1083
+INFO 2023-09-21 17:59:27,510 autoreload 30332 25580 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-21 17:59:27,899 autoreload 25380 21284 Watching for file changes with StatReloader
+INFO 2023-09-21 17:59:45,349 autoreload 25380 21284 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-21 17:59:45,705 autoreload 27104 25324 Watching for file changes with StatReloader
+INFO 2023-09-21 18:01:24,746 autoreload 27104 25324 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-21 18:01:25,128 autoreload 28132 30348 Watching for file changes with StatReloader
+INFO 2023-09-21 18:01:57,828 autoreload 28132 30348 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-21 18:01:58,222 autoreload 24940 15224 Watching for file changes with StatReloader
+INFO 2023-09-21 18:02:28,905 autoreload 24940 15224 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-21 18:02:29,276 autoreload 15880 11076 Watching for file changes with StatReloader
+INFO 2023-09-21 18:03:40,787 autoreload 15880 11076 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-21 18:03:41,177 autoreload 27356 28192 Watching for file changes with StatReloader
+INFO 2023-09-21 18:03:46,648 basehttp 27356 6404 "GET /dz/client/add/ HTTP/1.1" 200 1065
+ERROR 2023-09-21 18:04:14,258 log 27356 6404 Internal Server Error: /dz/client/add/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py", line 40, in client_form
+    address = form.cleaned_data['address']
+KeyError: 'address'
+ERROR 2023-09-21 18:04:14,259 basehttp 27356 6404 "POST /dz/client/add/ HTTP/1.1" 500 72095
+INFO 2023-09-21 18:05:30,066 autoreload 27356 28192 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-21 18:05:30,456 autoreload 11116 22828 Watching for file changes with StatReloader
+INFO 2023-09-21 18:05:32,953 basehttp 11116 27288 "GET /dz/client/add/ HTTP/1.1" 200 1065
+INFO 2023-09-21 18:05:34,256 basehttp 11116 27288 "GET /dz/client/add/ HTTP/1.1" 200 1065
+INFO 2023-09-21 18:05:44,036 autoreload 11116 22828 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-21 18:05:44,399 autoreload 26236 18508 Watching for file changes with StatReloader
+INFO 2023-09-21 18:05:47,681 autoreload 26236 18508 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-21 18:05:48,043 autoreload 8124 21972 Watching for file changes with StatReloader
+INFO 2023-09-21 18:05:52,302 autoreload 8124 21972 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-21 18:05:52,669 autoreload 28236 13108 Watching for file changes with StatReloader
+INFO 2023-09-21 18:06:02,038 autoreload 28236 13108 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-21 18:06:02,440 autoreload 24968 28324 Watching for file changes with StatReloader
+INFO 2023-09-21 18:07:10,100 autoreload 24968 28324 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\forms.py changed, reloading.
+INFO 2023-09-21 18:07:10,455 autoreload 26668 12568 Watching for file changes with StatReloader
+INFO 2023-09-21 18:07:21,874 autoreload 26668 12568 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\forms.py changed, reloading.
+INFO 2023-09-21 18:07:22,235 autoreload 24960 23860 Watching for file changes with StatReloader
+INFO 2023-09-21 18:07:39,357 basehttp 24960 6264 "GET /dz/client/add/ HTTP/1.1" 200 1065
+INFO 2023-09-21 18:07:40,718 basehttp 24960 6264 "GET /dz/client/add/ HTTP/1.1" 200 1065
+INFO 2023-09-21 18:07:41,418 basehttp 24960 6264 "GET /dz/client/add/ HTTP/1.1" 200 1065
+INFO 2023-09-21 18:07:41,622 basehttp 24960 6264 "GET /dz/client/add/ HTTP/1.1" 200 1065
+INFO 2023-09-21 18:07:41,800 basehttp 24960 6264 "GET /dz/client/add/ HTTP/1.1" 200 1065
+INFO 2023-09-21 18:07:41,984 basehttp 24960 6264 "GET /dz/client/add/ HTTP/1.1" 200 1065
+INFO 2023-09-21 18:07:42,161 basehttp 24960 6264 "GET /dz/client/add/ HTTP/1.1" 200 1065
+INFO 2023-09-21 18:07:47,294 basehttp 24960 6264 "GET /dz/product/add/ HTTP/1.1" 200 1123
+INFO 2023-09-21 18:16:08,948 autoreload 24960 23860 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-21 18:16:09,298 autoreload 24312 29512 Watching for file changes with StatReloader
+INFO 2023-09-21 18:16:17,243 basehttp 24312 24216 "GET /dz/client/add/ HTTP/1.1" 200 1065
+INFO 2023-09-21 18:16:27,018 basehttp 24312 24216 "GET /dz/client/add/ HTTP/1.1" 200 1065
+INFO 2023-09-21 18:16:31,930 basehttp 24312 24216 "GET /dz/product/add/ HTTP/1.1" 200 1123
+INFO 2023-09-21 18:21:38,429 autoreload 24312 29512 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\karmaproject\settings.py changed, reloading.
+INFO 2023-09-21 18:21:38,786 autoreload 22800 16296 Watching for file changes with StatReloader
+INFO 2023-09-21 18:22:52,604 autoreload 22800 16296 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-21 18:22:52,961 autoreload 16768 11492 Watching for file changes with StatReloader
+INFO 2023-09-21 18:23:41,220 autoreload 16768 11492 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-21 18:23:41,625 autoreload 28312 22864 Watching for file changes with StatReloader
+INFO 2023-09-21 18:24:00,261 autoreload 28312 22864 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-21 18:24:00,653 autoreload 12672 13396 Watching for file changes with StatReloader
+INFO 2023-09-21 18:28:06,210 autoreload 12672 13396 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-21 18:28:06,633 autoreload 16232 23720 Watching for file changes with StatReloader
+INFO 2023-09-21 18:28:53,849 autoreload 16232 23720 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-21 18:28:54,244 autoreload 27600 30300 Watching for file changes with StatReloader
+INFO 2023-09-21 18:29:25,934 basehttp 27600 29500 "GET /dz/client/add/ HTTP/1.1" 200 1065
+INFO 2023-09-21 18:29:28,118 basehttp 27600 29500 "GET /dz/product/add/ HTTP/1.1" 200 1196
+ERROR 2023-09-21 18:29:40,115 log 27600 29500 Internal Server Error: /dz/product/add/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py", line 57, in product_form
+    description = form.cleaned_data['description']
+KeyError: 'description'
+ERROR 2023-09-21 18:29:40,117 basehttp 27600 29500 "POST /dz/product/add/ HTTP/1.1" 500 72236
+ERROR 2023-09-21 18:30:38,518 log 27600 29500 Internal Server Error: /dz/product/add/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py", line 57, in product_form
+    description = form.cleaned_data['description']
+KeyError: 'description'
+ERROR 2023-09-21 18:30:38,519 basehttp 27600 29500 "POST /dz/product/add/ HTTP/1.1" 500 72236
+INFO 2023-09-21 18:31:46,618 autoreload 27600 30300 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\forms.py changed, reloading.
+INFO 2023-09-21 18:31:46,985 autoreload 21928 16200 Watching for file changes with StatReloader
+INFO 2023-09-21 18:31:52,501 basehttp 21928 15352 "GET /dz/product/add/ HTTP/1.1" 200 1348
+INFO 2023-09-21 18:33:11,151 autoreload 21928 16200 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\forms.py changed, reloading.
+INFO 2023-09-21 18:33:11,534 autoreload 14964 16184 Watching for file changes with StatReloader
+INFO 2023-09-21 18:33:32,176 autoreload 14964 16184 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-21 18:33:32,554 autoreload 23020 24464 Watching for file changes with StatReloader
+INFO 2023-09-21 18:36:13,667 autoreload 23020 24464 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-21 18:36:14,065 autoreload 30368 29896 Watching for file changes with StatReloader
+INFO 2023-09-21 18:37:12,515 autoreload 30368 29896 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\forms.py changed, reloading.
+INFO 2023-09-21 18:37:12,867 autoreload 6560 19680 Watching for file changes with StatReloader
+INFO 2023-09-21 18:37:21,385 basehttp 6560 14676 "GET /dz/product/add/ HTTP/1.1" 200 1371
+INFO 2023-09-21 18:37:33,316 basehttp 6560 14676 "POST /dz/product/add/ HTTP/1.1" 200 1416
+INFO 2023-09-21 18:37:37,496 basehttp 6560 14676 "GET /dz/client/add/ HTTP/1.1" 200 1245
+INFO 2023-09-21 18:38:06,209 basehttp 6560 14676 "POST /dz/client/add/ HTTP/1.1" 200 1321

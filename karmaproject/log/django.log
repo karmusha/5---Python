@@ -336,3 +336,1029 @@ INFO 2023-09-21 18:37:21,385 basehttp 6560 14676 "GET /dz/product/add/ HTTP/1.1"
 INFO 2023-09-21 18:37:33,316 basehttp 6560 14676 "POST /dz/product/add/ HTTP/1.1" 200 1416
 INFO 2023-09-21 18:37:37,496 basehttp 6560 14676 "GET /dz/client/add/ HTTP/1.1" 200 1245
 INFO 2023-09-21 18:38:06,209 basehttp 6560 14676 "POST /dz/client/add/ HTTP/1.1" 200 1321
+INFO 2023-09-21 18:43:12,250 autoreload 6560 19680 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-21 18:43:12,659 autoreload 16416 3524 Watching for file changes with StatReloader
+INFO 2023-09-23 10:02:29,464 autoreload 14428 19580 Watching for file changes with StatReloader
+INFO 2023-09-23 10:02:40,843 basehttp 14428 16936 "GET /admin HTTP/1.1" 301 0
+INFO 2023-09-23 10:02:40,851 basehttp 14428 18780 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-23 10:02:40,884 basehttp 14428 18780 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-23 10:02:41,015 basehttp 14428 18780 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2023-09-23 10:02:41,017 basehttp 14428 18780 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-09-23 10:02:41,038 basehttp 14428 17844 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-09-23 10:02:41,042 basehttp 14428 16596 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-09-23 10:02:41,043 basehttp 14428 4628 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-09-23 10:02:41,043 basehttp 14428 8800 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-09-23 10:02:41,045 basehttp 14428 4224 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+WARNING 2023-09-23 10:02:41,494 log 14428 4224 Not Found: /favicon.ico
+WARNING 2023-09-23 10:02:41,495 basehttp 14428 4224 "GET /favicon.ico HTTP/1.1" 404 2547
+INFO 2023-09-23 10:02:45,478 basehttp 14428 4224 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-23 10:02:45,490 basehttp 14428 4224 "GET /admin/ HTTP/1.1" 200 5852
+INFO 2023-09-23 10:02:45,500 basehttp 14428 4224 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-09-23 10:02:45,510 basehttp 14428 8800 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-09-23 10:02:45,510 basehttp 14428 4224 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-09-23 10:02:51,473 basehttp 14428 8800 "GET /admin/auth/user/add/ HTTP/1.1" 200 10988
+INFO 2023-09-23 10:02:51,488 basehttp 14428 8800 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-09-23 10:02:51,488 basehttp 14428 16596 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-09-23 10:02:51,489 basehttp 14428 18780 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-09-23 10:02:51,490 basehttp 14428 17844 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-09-23 10:02:51,497 basehttp 14428 4224 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 10:02:51,497 basehttp 14428 8800 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-09-23 10:02:51,499 basehttp 14428 18780 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-09-23 10:02:51,499 basehttp 14428 16596 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-09-23 10:02:51,500 basehttp 14428 8800 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-09-23 10:02:51,501 basehttp 14428 4224 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-09-23 10:02:51,501 basehttp 14428 4628 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-09-23 10:02:51,502 basehttp 14428 17844 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-09-23 10:02:51,505 basehttp 14428 17844 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-09-23 10:03:18,647 basehttp 14428 17844 "POST /admin/auth/user/add/ HTTP/1.1" 200 11265
+INFO 2023-09-23 10:03:18,660 basehttp 14428 17844 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 10:03:34,693 basehttp 14428 17844 "POST /admin/auth/user/add/ HTTP/1.1" 200 11156
+INFO 2023-09-23 10:03:34,706 basehttp 14428 17844 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 10:03:51,209 basehttp 14428 17844 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-09-23 10:03:51,253 basehttp 14428 17844 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 22734
+INFO 2023-09-23 10:03:51,269 basehttp 14428 4224 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2023-09-23 10:03:51,269 basehttp 14428 8800 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2023-09-23 10:03:51,269 basehttp 14428 4628 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2023-09-23 10:03:51,269 basehttp 14428 17844 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2023-09-23 10:03:51,272 basehttp 14428 16596 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 10:03:51,290 basehttp 14428 16596 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-09-23 10:03:51,387 basehttp 14428 4224 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2023-09-23 10:03:51,388 basehttp 14428 18780 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2023-09-23 10:03:51,389 basehttp 14428 17844 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-09-23 10:03:51,389 basehttp 14428 16596 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2023-09-23 10:03:51,389 basehttp 14428 8800 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2023-09-23 10:03:51,389 basehttp 14428 4628 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2023-09-23 10:03:54,867 basehttp 14428 8800 "GET /admin/auth/group/add/ HTTP/1.1" 200 12123
+INFO 2023-09-23 10:03:54,882 basehttp 14428 8800 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 10:04:52,554 basehttp 14428 8800 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-09-23 10:04:52,573 basehttp 14428 8800 "GET /admin/auth/group/ HTTP/1.1" 200 9120
+INFO 2023-09-23 10:04:52,586 basehttp 14428 8800 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-09-23 10:04:52,588 basehttp 14428 4628 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 10:04:52,595 basehttp 14428 4628 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-09-23 10:04:52,602 basehttp 14428 4628 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-09-23 10:04:54,864 basehttp 14428 4628 "GET /admin/auth/user/ HTTP/1.1" 200 11997
+INFO 2023-09-23 10:04:54,878 basehttp 14428 4628 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2023-09-23 10:04:54,881 basehttp 14428 8800 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 10:04:54,895 basehttp 14428 8800 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2023-09-23 10:04:58,331 basehttp 14428 8800 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 22481
+INFO 2023-09-23 10:04:58,346 basehttp 14428 8800 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 10:05:27,777 basehttp 14428 8800 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-23 10:05:27,789 basehttp 14428 8800 "GET /admin/auth/user/ HTTP/1.1" 200 12220
+INFO 2023-09-23 10:05:27,804 basehttp 14428 8800 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 10:11:22,501 autoreload 14428 19580 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-23 10:11:22,888 autoreload 3492 10860 Watching for file changes with StatReloader
+INFO 2023-09-23 10:12:51,028 autoreload 3492 10860 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-23 10:12:51,369 autoreload 22136 15016 Watching for file changes with StatReloader
+INFO 2023-09-23 10:16:41,661 autoreload 18324 12604 Watching for file changes with StatReloader
+INFO 2023-09-23 10:16:47,936 basehttp 18324 18664 "GET /admin/ HTTP/1.1" 200 7987
+INFO 2023-09-23 10:21:42,192 basehttp 18324 18664 "GET /admin/ HTTP/1.1" 200 7987
+INFO 2023-09-23 10:32:06,204 autoreload 18324 12604 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-23 10:32:06,572 autoreload 21424 22068 Watching for file changes with StatReloader
+INFO 2023-09-23 10:32:41,412 autoreload 21424 22068 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-23 10:32:41,764 autoreload 8540 15220 Watching for file changes with StatReloader
+INFO 2023-09-23 11:32:13,400 autoreload 5940 2832 Watching for file changes with StatReloader
+INFO 2023-09-23 11:34:58,477 autoreload 14736 23504 Watching for file changes with StatReloader
+INFO 2023-09-23 11:35:10,055 basehttp 14736 12712 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-23 11:35:10,082 basehttp 14736 12712 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-23 11:35:10,120 basehttp 14736 12712 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-09-23 11:35:24,728 basehttp 14736 12712 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-09-23 11:35:34,428 basehttp 14736 12712 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-09-23 11:35:41,876 basehttp 14736 12712 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4534
+INFO 2023-09-23 11:37:38,258 autoreload 14184 20332 Watching for file changes with StatReloader
+INFO 2023-09-23 11:37:43,659 basehttp 14184 16468 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-23 11:37:43,691 basehttp 14184 16468 "GET /admin/ HTTP/1.1" 200 7042
+INFO 2023-09-23 11:37:48,611 basehttp 14184 16468 "GET /admin/auth/user/add/ HTTP/1.1" 200 11885
+INFO 2023-09-23 11:37:48,735 basehttp 14184 21792 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-09-23 11:37:48,737 basehttp 14184 21792 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-09-23 11:37:48,739 basehttp 14184 13996 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-09-23 11:37:48,740 basehttp 14184 21792 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-09-23 11:37:48,746 basehttp 14184 10092 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-09-23 11:37:48,749 basehttp 14184 13996 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:37:48,749 basehttp 14184 3792 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-09-23 11:37:48,750 basehttp 14184 10060 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-09-23 11:37:48,751 basehttp 14184 16468 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-09-23 11:38:03,912 basehttp 14184 16468 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-09-23 11:38:03,947 basehttp 14184 16468 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23930
+INFO 2023-09-23 11:38:03,960 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:38:04,049 basehttp 14184 16468 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-09-23 11:38:08,400 basehttp 14184 16468 "GET /admin/auth/group/add/ HTTP/1.1" 200 13319
+INFO 2023-09-23 11:38:08,413 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:38:16,309 basehttp 14184 16468 "GET /admin/dz_karmaapp/product/add/ HTTP/1.1" 200 13338
+INFO 2023-09-23 11:38:16,322 basehttp 14184 10060 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2023-09-23 11:38:16,324 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:38:54,495 basehttp 14184 16468 "GET /admin/dz_karmaapp/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4483
+INFO 2023-09-23 11:38:54,508 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:39:01,587 basehttp 14184 16468 "POST /admin/dz_karmaapp/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 374
+INFO 2023-09-23 11:39:01,596 basehttp 14184 16468 "GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+INFO 2023-09-23 11:39:05,173 basehttp 14184 16468 "POST /admin/dz_karmaapp/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-23 11:39:05,185 basehttp 14184 16468 "GET /admin/dz_karmaapp/product/add/ HTTP/1.1" 200 13706
+INFO 2023-09-23 11:39:05,198 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:39:27,313 basehttp 14184 16468 "POST /admin/dz_karmaapp/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-23 11:39:27,331 basehttp 14184 16468 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 9997
+INFO 2023-09-23 11:39:27,346 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:39:33,480 basehttp 14184 16468 "GET /admin/dz_karmaapp/product/add/ HTTP/1.1" 200 13382
+INFO 2023-09-23 11:39:33,494 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:39:58,957 basehttp 14184 16468 "GET /admin/dz_karmaapp/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4483
+INFO 2023-09-23 11:39:58,971 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:40:01,524 basehttp 14184 16468 "POST /admin/dz_karmaapp/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 367
+INFO 2023-09-23 11:40:04,205 basehttp 14184 16468 "POST /admin/dz_karmaapp/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-23 11:40:04,221 basehttp 14184 16468 "GET /admin/dz_karmaapp/product/add/ HTTP/1.1" 200 13747
+INFO 2023-09-23 11:40:04,238 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:41:07,112 basehttp 14184 16468 "GET /admin/dz_karmaapp/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4483
+INFO 2023-09-23 11:41:07,125 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:41:12,512 basehttp 14184 16468 "POST /admin/dz_karmaapp/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 371
+INFO 2023-09-23 11:41:15,112 basehttp 14184 16468 "POST /admin/dz_karmaapp/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-23 11:41:15,124 basehttp 14184 16468 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 10514
+INFO 2023-09-23 11:41:15,137 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:41:18,215 basehttp 14184 16468 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 10259
+INFO 2023-09-23 11:41:18,229 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:41:21,931 basehttp 14184 16468 "GET /admin/dz_karmaapp/category/ HTTP/1.1" 200 9899
+INFO 2023-09-23 11:41:21,945 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:41:23,812 basehttp 14184 16468 "GET /admin/auth/group/ HTTP/1.1" 200 8538
+INFO 2023-09-23 11:41:23,827 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:41:25,190 basehttp 14184 16468 "GET /admin/auth/user/ HTTP/1.1" 200 12585
+INFO 2023-09-23 11:41:25,203 basehttp 14184 10060 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2023-09-23 11:41:25,205 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:41:29,402 basehttp 14184 16468 "GET /admin/auth/group/add/ HTTP/1.1" 200 13319
+INFO 2023-09-23 11:41:29,416 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:42:05,424 basehttp 14184 16468 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-09-23 11:42:05,435 basehttp 14184 16468 "GET /admin/auth/group/ HTTP/1.1" 200 10007
+INFO 2023-09-23 11:42:05,448 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:42:11,114 basehttp 14184 16468 "GET /admin/auth/group/1/change/ HTTP/1.1" 200 13559
+INFO 2023-09-23 11:42:11,262 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:42:16,551 basehttp 14184 16468 "POST /admin/auth/group/1/change/ HTTP/1.1" 302 0
+INFO 2023-09-23 11:42:16,563 basehttp 14184 16468 "GET /admin/auth/group/ HTTP/1.1" 200 10007
+INFO 2023-09-23 11:42:16,578 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:42:19,620 basehttp 14184 16468 "GET /admin/auth/user/ HTTP/1.1" 200 12888
+INFO 2023-09-23 11:42:19,634 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:42:20,606 basehttp 14184 16468 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23671
+INFO 2023-09-23 11:42:20,621 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:42:30,392 basehttp 14184 16468 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-23 11:42:30,405 basehttp 14184 16468 "GET /admin/auth/user/ HTTP/1.1" 200 13109
+INFO 2023-09-23 11:42:30,419 basehttp 14184 16468 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 11:45:32,835 autoreload 14184 20332 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-23 11:45:33,271 autoreload 10092 6372 Watching for file changes with StatReloader
+INFO 2023-09-23 11:46:03,173 autoreload 10092 6372 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-23 11:46:03,604 autoreload 4736 23532 Watching for file changes with StatReloader
+INFO 2023-09-23 11:46:15,027 autoreload 4736 23532 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-23 11:46:15,384 autoreload 22964 22228 Watching for file changes with StatReloader
+INFO 2023-09-23 11:49:36,588 autoreload 22964 22228 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-23 11:49:36,959 autoreload 2548 19892 Watching for file changes with StatReloader
+INFO 2023-09-23 11:50:35,512 autoreload 2548 19892 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-23 11:50:35,871 autoreload 15220 22388 Watching for file changes with StatReloader
+INFO 2023-09-23 13:24:03,862 autoreload 5436 20296 Watching for file changes with StatReloader
+INFO 2023-09-23 13:24:07,366 basehttp 5436 23420 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 10259
+INFO 2023-09-23 13:24:07,385 basehttp 5436 23420 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 13:24:54,286 autoreload 5436 20296 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-23 13:24:54,669 autoreload 16468 21296 Watching for file changes with StatReloader
+INFO 2023-09-23 13:24:56,606 basehttp 16468 13780 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 10091
+INFO 2023-09-23 13:24:56,620 basehttp 16468 13780 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 13:25:34,858 autoreload 16468 21296 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\admin.py changed, reloading.
+INFO 2023-09-23 13:25:35,217 autoreload 13844 2596 Watching for file changes with StatReloader
+INFO 2023-09-23 13:25:40,539 autoreload 13844 2596 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\admin.py changed, reloading.
+INFO 2023-09-23 13:25:40,896 autoreload 21596 6308 Watching for file changes with StatReloader
+INFO 2023-09-23 13:25:47,235 autoreload 21596 6308 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\admin.py changed, reloading.
+INFO 2023-09-23 13:25:47,592 autoreload 15296 14624 Watching for file changes with StatReloader
+INFO 2023-09-23 13:25:49,621 basehttp 15296 21888 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 10091
+INFO 2023-09-23 13:25:49,637 basehttp 15296 21888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 13:25:52,819 basehttp 15296 21888 "GET /admin/dz_karmaapp/category/ HTTP/1.1" 200 9899
+INFO 2023-09-23 13:25:52,834 basehttp 15296 21888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 13:25:54,133 basehttp 15296 21888 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 10091
+INFO 2023-09-23 13:25:54,146 basehttp 15296 21888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 13:25:59,221 basehttp 15296 21888 "GET /admin/auth/user/ HTTP/1.1" 200 12888
+INFO 2023-09-23 13:25:59,234 basehttp 15296 21888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 13:26:01,839 basehttp 15296 21888 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 10091
+INFO 2023-09-23 13:26:01,853 basehttp 15296 21888 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 13:27:23,176 autoreload 15296 14624 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\admin.py changed, reloading.
+INFO 2023-09-23 13:27:23,520 autoreload 21604 11964 Watching for file changes with StatReloader
+INFO 2023-09-23 13:27:44,178 autoreload 21604 11964 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\admin.py changed, reloading.
+INFO 2023-09-23 13:27:44,536 autoreload 17712 22880 Watching for file changes with StatReloader
+INFO 2023-09-23 13:27:57,049 basehttp 17712 15104 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 10091
+INFO 2023-09-23 13:27:57,064 basehttp 17712 15104 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 13:27:58,582 basehttp 17712 15104 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 10091
+INFO 2023-09-23 13:27:58,595 basehttp 17712 15104 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 13:28:39,482 autoreload 10700 1908 Watching for file changes with StatReloader
+INFO 2023-09-23 13:28:43,719 basehttp 10700 2320 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 10091
+INFO 2023-09-23 13:28:43,735 basehttp 10700 2320 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 13:28:45,721 basehttp 10700 2320 "GET /admin/dz_karmaapp/product/4/change/ HTTP/1.1" 200 13995
+INFO 2023-09-23 13:28:45,748 basehttp 10700 2320 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 13:28:53,403 basehttp 10700 2320 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 10091
+INFO 2023-09-23 13:28:53,418 basehttp 10700 2320 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 15:55:58,050 basehttp 10700 8724 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 10091
+INFO 2023-09-23 15:55:58,082 basehttp 10700 8724 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-23 18:14:34,780 basehttp 10700 8376 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 10091
+INFO 2023-09-23 18:14:34,800 basehttp 10700 8376 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:16:26,857 basehttp 10700 22556 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 10091
+INFO 2023-09-24 10:16:26,873 basehttp 10700 22556 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:16:33,066 basehttp 10700 22556 "GET /admin/dz_karmaapp/product/add/ HTTP/1.1" 200 13464
+INFO 2023-09-24 10:16:33,079 basehttp 10700 22556 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:16:39,111 basehttp 10700 22556 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 10091
+INFO 2023-09-24 10:16:39,128 basehttp 10700 22556 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:16:40,799 basehttp 10700 22556 "GET /admin/dz_karmaapp/category/ HTTP/1.1" 200 9899
+INFO 2023-09-24 10:16:40,812 basehttp 10700 22556 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:16:42,122 basehttp 10700 22556 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 10091
+INFO 2023-09-24 10:16:42,136 basehttp 10700 22556 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:16:44,776 basehttp 10700 22556 "GET /admin/auth/user/ HTTP/1.1" 200 12888
+INFO 2023-09-24 10:16:44,790 basehttp 10700 22556 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:16:49,408 basehttp 10700 22556 "GET /admin/auth/group/ HTTP/1.1" 200 9795
+INFO 2023-09-24 10:16:49,423 basehttp 10700 22556 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:16:50,322 basehttp 10700 22556 "GET /admin/auth/user/ HTTP/1.1" 200 12888
+INFO 2023-09-24 10:16:50,336 basehttp 10700 22556 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:16:52,275 basehttp 10700 22556 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 10091
+INFO 2023-09-24 10:16:52,290 basehttp 10700 22556 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:16:53,182 basehttp 10700 22556 "GET /admin/auth/user/ HTTP/1.1" 200 12888
+INFO 2023-09-24 10:16:53,195 basehttp 10700 22556 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:21:29,226 autoreload 10700 1908 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\admin.py changed, reloading.
+INFO 2023-09-24 10:21:29,797 autoreload 26208 18168 Watching for file changes with StatReloader
+INFO 2023-09-24 10:21:33,836 basehttp 26208 21140 "GET /admin/auth/user/ HTTP/1.1" 200 12888
+INFO 2023-09-24 10:21:33,852 basehttp 26208 21140 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:21:35,634 basehttp 26208 21140 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 13442
+INFO 2023-09-24 10:21:35,648 basehttp 26208 21140 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:21:52,531 basehttp 26208 21140 "POST /admin/dz_karmaapp/product/ HTTP/1.1" 302 0
+INFO 2023-09-24 10:21:52,544 basehttp 26208 21140 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 13442
+INFO 2023-09-24 10:21:52,558 basehttp 26208 21140 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:26:22,272 autoreload 26208 18168 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\admin.py changed, reloading.
+INFO 2023-09-24 10:26:22,666 autoreload 21060 25932 Watching for file changes with StatReloader
+INFO 2023-09-24 10:26:54,538 autoreload 21060 25932 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\admin.py changed, reloading.
+INFO 2023-09-24 10:26:54,883 autoreload 25604 16356 Watching for file changes with StatReloader
+INFO 2023-09-24 10:26:58,808 basehttp 25604 24712 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 13442
+INFO 2023-09-24 10:26:58,823 basehttp 25604 24712 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:27:00,897 basehttp 25604 24712 "GET /admin/dz_karmaapp/product/2/change/ HTTP/1.1" 200 12398
+INFO 2023-09-24 10:27:00,911 basehttp 25604 24712 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:32:45,083 autoreload 25604 16356 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\admin.py changed, reloading.
+INFO 2023-09-24 10:32:45,433 autoreload 11252 6360 Watching for file changes with StatReloader
+INFO 2023-09-24 10:34:10,172 autoreload 11252 6360 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\admin.py changed, reloading.
+INFO 2023-09-24 10:34:10,540 autoreload 20848 19756 Watching for file changes with StatReloader
+INFO 2023-09-24 10:35:07,753 autoreload 20848 19756 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\admin.py changed, reloading.
+INFO 2023-09-24 10:35:08,103 autoreload 16964 18412 Watching for file changes with StatReloader
+INFO 2023-09-24 10:36:07,696 autoreload 16964 18412 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-24 10:36:08,147 autoreload 25780 12196 Watching for file changes with StatReloader
+INFO 2023-09-24 10:36:14,493 autoreload 25780 12196 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\admin.py changed, reloading.
+INFO 2023-09-24 10:36:14,868 autoreload 11220 20884 Watching for file changes with StatReloader
+INFO 2023-09-24 10:37:09,365 autoreload 11220 20884 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-24 10:37:09,725 autoreload 24100 19856 Watching for file changes with StatReloader
+ERROR 2023-09-24 10:38:55,475 log 24100 4380 Internal Server Error: /admin/dz_karmaapp/product/2/change/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: dz_karmaapp_product.rating
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1767, in _changeform_view
+    obj = self.get_object(request, unquote(object_id), to_field)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 866, in get_object
+    return queryset.get(**{field.name: object_id})
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: dz_karmaapp_product.rating
+ERROR 2023-09-24 10:38:55,480 basehttp 24100 4380 "GET /admin/dz_karmaapp/product/2/change/ HTTP/1.1" 500 184142
+INFO 2023-09-24 10:39:36,115 autoreload 24100 19856 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\admin.py changed, reloading.
+INFO 2023-09-24 10:39:36,490 autoreload 11596 22988 Watching for file changes with StatReloader
+INFO 2023-09-24 10:39:44,877 autoreload 11596 22988 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\admin.py changed, reloading.
+INFO 2023-09-24 10:39:45,219 autoreload 18896 348 Watching for file changes with StatReloader
+INFO 2023-09-24 10:40:01,752 autoreload 18896 348 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\admin.py changed, reloading.
+INFO 2023-09-24 10:40:02,118 autoreload 25252 25760 Watching for file changes with StatReloader
+ERROR 2023-09-24 10:40:21,774 log 25252 19692 Internal Server Error: /admin/dz_karmaapp/product/2/change/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: dz_karmaapp_product.rating
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1767, in _changeform_view
+    obj = self.get_object(request, unquote(object_id), to_field)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 866, in get_object
+    return queryset.get(**{field.name: object_id})
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: dz_karmaapp_product.rating
+ERROR 2023-09-24 10:40:21,780 basehttp 25252 19692 "GET /admin/dz_karmaapp/product/2/change/ HTTP/1.1" 500 184142
+INFO 2023-09-24 10:40:52,583 autoreload 25252 25760 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\forms.py changed, reloading.
+INFO 2023-09-24 10:40:52,923 autoreload 18468 26104 Watching for file changes with StatReloader
+ERROR 2023-09-24 10:40:55,580 log 18468 8156 Internal Server Error: /admin/dz_karmaapp/product/2/change/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: dz_karmaapp_product.rating
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1767, in _changeform_view
+    obj = self.get_object(request, unquote(object_id), to_field)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 866, in get_object
+    return queryset.get(**{field.name: object_id})
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: dz_karmaapp_product.rating
+ERROR 2023-09-24 10:40:55,584 basehttp 18468 8156 "GET /admin/dz_karmaapp/product/2/change/ HTTP/1.1" 500 184142
+ERROR 2023-09-24 10:40:56,506 log 18468 8156 Internal Server Error: /admin/dz_karmaapp/product/2/change/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: dz_karmaapp_product.rating
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1767, in _changeform_view
+    obj = self.get_object(request, unquote(object_id), to_field)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 866, in get_object
+    return queryset.get(**{field.name: object_id})
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 633, in get
+    num = len(clone)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: dz_karmaapp_product.rating
+ERROR 2023-09-24 10:40:56,510 basehttp 18468 8156 "GET /admin/dz_karmaapp/product/2/change/ HTTP/1.1" 500 184142
+ERROR 2023-09-24 10:41:32,840 log 18468 8156 Internal Server Error: /admin/dz_karmaapp/product/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: dz_karmaapp_product.rating
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 2065, in changelist_view
+    "selection_note": _("0 of %(cnt)s selected") % {"cnt": len(cl.result_list)},
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 380, in __len__
+    self._fetch_all()
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: dz_karmaapp_product.rating
+ERROR 2023-09-24 10:41:32,845 basehttp 18468 8156 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 500 170731
+INFO 2023-09-24 10:41:35,010 basehttp 18468 8156 "GET /admin/dz_karmaapp/ HTTP/1.1" 200 5825
+INFO 2023-09-24 10:42:59,467 autoreload 18628 12548 Watching for file changes with StatReloader
+INFO 2023-09-24 10:43:02,094 basehttp 18628 20740 "GET /admin/dz_karmaapp/ HTTP/1.1" 200 5825
+INFO 2023-09-24 10:43:03,335 basehttp 18628 20740 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 13442
+INFO 2023-09-24 10:43:03,350 basehttp 18628 20740 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:43:06,664 basehttp 18628 20740 "GET /admin/dz_karmaapp/product/1/change/ HTTP/1.1" 200 14922
+INFO 2023-09-24 10:43:06,678 basehttp 18628 1500 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 10:43:06,715 basehttp 18628 20740 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2023-09-24 11:24:44,084 autoreload 19064 23716 Watching for file changes with StatReloader
+INFO 2023-09-24 11:24:48,781 basehttp 19064 20748 "GET /admin/dz_karmaapp/product/1/change/ HTTP/1.1" 200 15152
+INFO 2023-09-24 11:24:48,797 basehttp 19064 20748 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:24:51,258 basehttp 19064 20748 "GET /admin/dz_karmaapp/product/ HTTP/1.1" 200 13755
+INFO 2023-09-24 11:24:51,271 basehttp 19064 20748 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:24:53,023 basehttp 19064 20748 "GET /admin/dz_karmaapp/client/ HTTP/1.1" 200 9848
+INFO 2023-09-24 11:24:53,040 basehttp 19064 20748 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-09-24 11:24:56,781 log 19064 20748 Internal Server Error: /admin/dz_karmaapp/client/add/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1838, in _changeform_view
+    media = self.media + admin_form.media
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\helpers.py", line 97, in media
+    for fs in self:
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\helpers.py", line 70, in __iter__
+    yield Fieldset(
+TypeError: Fieldset.__init__() got an unexpected keyword argument 'email'
+ERROR 2023-09-24 11:24:56,785 basehttp 19064 20748 "GET /admin/dz_karmaapp/client/add/ HTTP/1.1" 500 122133
+WARNING 2023-09-24 11:28:39,409 log 19064 20748 Not Found: /client/add
+WARNING 2023-09-24 11:28:39,410 basehttp 19064 20748 "GET /client/add HTTP/1.1" 404 2544
+INFO 2023-09-24 11:28:57,118 basehttp 19064 20748 "GET /dz/client/add HTTP/1.1" 301 0
+INFO 2023-09-24 11:28:57,127 basehttp 19064 13012 "GET /dz/client/add/ HTTP/1.1" 200 1245
+INFO 2023-09-24 11:29:41,377 basehttp 19064 13012 "POST /dz/client/add/ HTTP/1.1" 200 1318
+INFO 2023-09-24 11:29:53,487 basehttp 19064 13012 "POST /dz/client/add/ HTTP/1.1" 200 1333
+ERROR 2023-09-24 11:30:03,957 log 19064 13012 Internal Server Error: /dz/client/add/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: dz_karmaapp_client.tel
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py", line 44, in client_form
+    client.save()
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: dz_karmaapp_client.tel
+ERROR 2023-09-24 11:30:03,962 basehttp 19064 13012 "POST /dz/client/add/ HTTP/1.1" 500 155858
+ERROR 2023-09-24 11:30:11,267 log 19064 13012 Internal Server Error: /dz/client/add/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: dz_karmaapp_client.tel
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py", line 44, in client_form
+    client.save()
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\sql\compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: dz_karmaapp_client.tel
+ERROR 2023-09-24 11:30:11,270 basehttp 19064 13012 "POST /dz/client/add/ HTTP/1.1" 500 155869
+INFO 2023-09-24 11:30:35,664 basehttp 19064 13012 "POST /dz/client/add/ HTTP/1.1" 200 1328
+WARNING 2023-09-24 11:31:27,780 log 19064 13012 Not Found: /dz/admin
+WARNING 2023-09-24 11:31:27,781 basehttp 19064 13012 "GET /dz/admin HTTP/1.1" 404 3341
+INFO 2023-09-24 11:31:32,482 basehttp 19064 13012 "GET /admin HTTP/1.1" 301 0
+INFO 2023-09-24 11:31:32,495 basehttp 19064 24120 "GET /admin/ HTTP/1.1" 200 10622
+INFO 2023-09-24 11:31:40,475 basehttp 19064 24120 "GET /admin/dz_karmaapp/client/ HTTP/1.1" 200 12498
+INFO 2023-09-24 11:31:40,491 basehttp 19064 24120 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:31:53,463 basehttp 19064 24120 "POST /admin/dz_karmaapp/client/ HTTP/1.1" 200 8687
+INFO 2023-09-24 11:31:53,510 basehttp 19064 24120 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2023-09-24 11:31:55,694 basehttp 19064 24120 "GET /admin/dz_karmaapp/client/ HTTP/1.1" 200 12498
+ERROR 2023-09-24 11:31:58,770 log 19064 24120 Internal Server Error: /admin/dz_karmaapp/client/add/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1838, in _changeform_view
+    media = self.media + admin_form.media
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\helpers.py", line 97, in media
+    for fs in self:
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\helpers.py", line 70, in __iter__
+    yield Fieldset(
+TypeError: Fieldset.__init__() got an unexpected keyword argument 'email'
+ERROR 2023-09-24 11:31:58,773 basehttp 19064 24120 "GET /admin/dz_karmaapp/client/add/ HTTP/1.1" 500 122133
+INFO 2023-09-24 11:32:00,975 basehttp 19064 24120 "GET /admin/dz_karmaapp/client/ HTTP/1.1" 200 12498
+ERROR 2023-09-24 11:32:02,854 log 19064 24120 Internal Server Error: /admin/dz_karmaapp/client/add/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1838, in _changeform_view
+    media = self.media + admin_form.media
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\helpers.py", line 97, in media
+    for fs in self:
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\helpers.py", line 70, in __iter__
+    yield Fieldset(
+TypeError: Fieldset.__init__() got an unexpected keyword argument 'email'
+ERROR 2023-09-24 11:32:02,855 basehttp 19064 24120 "GET /admin/dz_karmaapp/client/add/ HTTP/1.1" 500 122133
+INFO 2023-09-24 11:32:05,177 basehttp 19064 24120 "GET /admin/dz_karmaapp/client/ HTTP/1.1" 200 12498
+INFO 2023-09-24 11:32:06,296 basehttp 19064 24120 "GET /admin/dz_karmaapp/product/add/ HTTP/1.1" 200 14899
+INFO 2023-09-24 11:32:06,312 basehttp 19064 24120 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-09-24 11:32:11,630 log 19064 24120 Internal Server Error: /admin/dz_karmaapp/client/add/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1838, in _changeform_view
+    media = self.media + admin_form.media
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\helpers.py", line 97, in media
+    for fs in self:
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\helpers.py", line 70, in __iter__
+    yield Fieldset(
+TypeError: Fieldset.__init__() got an unexpected keyword argument 'email'
+ERROR 2023-09-24 11:32:11,633 basehttp 19064 24120 "GET /admin/dz_karmaapp/client/add/ HTTP/1.1" 500 122138
+INFO 2023-09-24 11:33:02,531 autoreload 19064 23716 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-24 11:33:02,945 autoreload 25708 20004 Watching for file changes with StatReloader
+ERROR 2023-09-24 11:33:06,837 log 25708 1348 Internal Server Error: /admin/dz_karmaapp/client/add/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1838, in _changeform_view
+    media = self.media + admin_form.media
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\helpers.py", line 97, in media
+    for fs in self:
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\helpers.py", line 70, in __iter__
+    yield Fieldset(
+TypeError: Fieldset.__init__() got an unexpected keyword argument 'email'
+ERROR 2023-09-24 11:33:06,841 basehttp 25708 1348 "GET /admin/dz_karmaapp/client/add/ HTTP/1.1" 500 122275
+INFO 2023-09-24 11:33:19,611 autoreload 25708 20004 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-24 11:33:19,992 autoreload 15008 20732 Watching for file changes with StatReloader
+ERROR 2023-09-24 11:33:22,135 log 15008 23780 Internal Server Error: /admin/dz_karmaapp/client/add/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1886, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1838, in _changeform_view
+    media = self.media + admin_form.media
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\helpers.py", line 97, in media
+    for fs in self:
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\helpers.py", line 70, in __iter__
+    yield Fieldset(
+TypeError: Fieldset.__init__() got an unexpected keyword argument 'email'
+ERROR 2023-09-24 11:33:22,138 basehttp 15008 23780 "GET /admin/dz_karmaapp/client/add/ HTTP/1.1" 500 122275
+INFO 2023-09-24 11:33:45,902 autoreload 15008 20732 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-24 11:33:46,266 autoreload 23636 6664 Watching for file changes with StatReloader
+INFO 2023-09-24 11:34:32,560 autoreload 23636 6664 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\models.py changed, reloading.
+INFO 2023-09-24 11:34:32,908 autoreload 21792 26448 Watching for file changes with StatReloader
+INFO 2023-09-24 11:34:52,173 basehttp 21792 10684 "GET /admin/dz_karmaapp/product/add/ HTTP/1.1" 200 14899
+INFO 2023-09-24 11:34:54,526 basehttp 21792 10684 "GET /admin/dz_karmaapp/client/ HTTP/1.1" 200 12498
+INFO 2023-09-24 11:34:54,540 basehttp 21792 10684 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-09-24 11:35:33,190 log 21792 10684 Internal Server Error: /admin/dz_karmaapp/client/1/change/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1838, in _changeform_view
+    media = self.media + admin_form.media
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\helpers.py", line 97, in media
+    for fs in self:
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\helpers.py", line 70, in __iter__
+    yield Fieldset(
+TypeError: Fieldset.__init__() got an unexpected keyword argument 'email'
+ERROR 2023-09-24 11:35:33,193 basehttp 21792 10684 "GET /admin/dz_karmaapp/client/1/change/ HTTP/1.1" 500 122535
+INFO 2023-09-24 11:35:34,726 basehttp 21792 10684 "GET /admin/dz_karmaapp/client/ HTTP/1.1" 200 12498
+ERROR 2023-09-24 11:35:35,704 log 21792 10684 Internal Server Error: /admin/dz_karmaapp/client/1/change/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1838, in _changeform_view
+    media = self.media + admin_form.media
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\helpers.py", line 97, in media
+    for fs in self:
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\helpers.py", line 70, in __iter__
+    yield Fieldset(
+TypeError: Fieldset.__init__() got an unexpected keyword argument 'email'
+ERROR 2023-09-24 11:35:35,707 basehttp 21792 10684 "GET /admin/dz_karmaapp/client/1/change/ HTTP/1.1" 500 122535
+INFO 2023-09-24 11:35:36,915 basehttp 21792 10684 "GET /admin/dz_karmaapp/client/ HTTP/1.1" 200 12498
+ERROR 2023-09-24 11:35:37,869 log 21792 10684 Internal Server Error: /admin/dz_karmaapp/client/2/change/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1838, in _changeform_view
+    media = self.media + admin_form.media
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\helpers.py", line 97, in media
+    for fs in self:
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\helpers.py", line 70, in __iter__
+    yield Fieldset(
+TypeError: Fieldset.__init__() got an unexpected keyword argument 'email'
+ERROR 2023-09-24 11:35:37,871 basehttp 21792 10684 "GET /admin/dz_karmaapp/client/2/change/ HTTP/1.1" 500 122536
+INFO 2023-09-24 11:35:39,107 basehttp 21792 10684 "GET /admin/dz_karmaapp/client/ HTTP/1.1" 200 12498
+INFO 2023-09-24 11:36:20,665 autoreload 21792 26448 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\admin.py changed, reloading.
+INFO 2023-09-24 11:36:21,051 autoreload 18900 25560 Watching for file changes with StatReloader
+ERROR 2023-09-24 11:36:22,733 log 18900 6208 Internal Server Error: /admin/dz_karmaapp/client/1/change/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\options.py", line 1838, in _changeform_view
+    media = self.media + admin_form.media
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\helpers.py", line 97, in media
+    for fs in self:
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\contrib\admin\helpers.py", line 70, in __iter__
+    yield Fieldset(
+TypeError: Fieldset.__init__() got an unexpected keyword argument 'email'
+ERROR 2023-09-24 11:36:22,735 basehttp 18900 6208 "GET /admin/dz_karmaapp/client/1/change/ HTTP/1.1" 500 122726
+INFO 2023-09-24 11:36:54,079 autoreload 18900 25560 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\admin.py changed, reloading.
+INFO 2023-09-24 11:36:54,477 autoreload 26056 856 Watching for file changes with StatReloader
+INFO 2023-09-24 11:36:55,820 basehttp 26056 25344 "GET /admin/dz_karmaapp/client/1/change/ HTTP/1.1" 200 12515
+INFO 2023-09-24 11:36:55,836 basehttp 26056 25344 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:37:07,680 basehttp 26056 25344 "GET /admin/dz_karmaapp/client/add/ HTTP/1.1" 200 12214
+INFO 2023-09-24 11:37:07,695 basehttp 26056 25344 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:37:27,073 basehttp 26056 25344 "POST /admin/dz_karmaapp/client/add/ HTTP/1.1" 302 0
+INFO 2023-09-24 11:37:27,093 basehttp 26056 25344 "GET /admin/dz_karmaapp/client/ HTTP/1.1" 200 13041
+INFO 2023-09-24 11:37:27,109 basehttp 26056 25344 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:37:29,162 basehttp 26056 25344 "GET /admin/dz_karmaapp/client/4/change/ HTTP/1.1" 200 12521
+INFO 2023-09-24 11:37:29,178 basehttp 26056 25344 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:38:03,389 autoreload 26056 856 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\admin.py changed, reloading.
+INFO 2023-09-24 11:38:03,791 autoreload 16248 12556 Watching for file changes with StatReloader
+INFO 2023-09-24 11:38:08,977 basehttp 16248 12896 "GET /admin/dz_karmaapp/client/4/change/ HTTP/1.1" 200 12527
+INFO 2023-09-24 11:38:08,991 basehttp 16248 12896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066

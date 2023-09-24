@@ -66,3 +66,7 @@ def product_form(request):
         form = ProductForm()
         message = 'Заполните форму'
     return render(request, 'dz_karmaapp/product_form.html', {'form': form, 'message': message})
+
+# Настройте под свои нужды вывод информации о клиентах, товарах и заказах на страницах вывода информации об объекте и вывода списка объектов.
+
+

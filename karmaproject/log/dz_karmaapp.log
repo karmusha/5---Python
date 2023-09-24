@@ -15,3 +15,8 @@ INFO 2023-09-20 13:54:05,060 views 21992 14704 Main page accessed
 DEBUG 2023-09-20 13:54:40,392 views 21992 15552 About page accessed
 INFO 2023-09-21 18:37:33,313 views 6560 14676 Got: form.cleaned_data={'name': 'Ola', 'description': 'egethsrj', 'price': Decimal('444'), 'foto': <TemporaryUploadedFile: IMG_20200327_135719.jpg (image/jpeg)>, 'quantity': 44}
 INFO 2023-09-21 18:38:06,202 views 6560 14676 Client: name='cmdgmdgm', email='ererg@vk.team', tel='5635636', address='thdk.jdjn'
+INFO 2023-09-24 11:29:41,371 views 19064 13012 Client: name='Karma', email='karma@vk.team', tel='4837294', address='blablabla'
+INFO 2023-09-24 11:29:53,481 views 19064 13012 Client: name='Karma2', email='karma2@vk.team', tel='483729455', address='blablablabaerrsthrth'
+INFO 2023-09-24 11:30:03,928 views 19064 13012 Client: name='Karma3', email='karma3@vk.team', tel='483729455', address='dfnyf,l,ykFRDRGWht'
+INFO 2023-09-24 11:30:11,239 views 19064 13012 Client: name='Karma3', email='karma3@vk.team', tel='483729455', address='dfnyf\r\nykFRDRGWht'
+INFO 2023-09-24 11:30:35,658 views 19064 13012 Client: name='Karma3', email='karma3@vk.team', tel='4837277', address='dfnyf\r\nykFRDRGWht'

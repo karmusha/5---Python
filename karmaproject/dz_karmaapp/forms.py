@@ -9,7 +9,7 @@ class ClientForm(forms.Form):
     def clean_email(self):
         email: str = self.cleaned_data['email']
         if not (email.endswith('vk.team') or email.endswith('corp.mail.ru')):
-            raise forms.ValidationError('Используйтекорпоративную почту')
+            raise forms.ValidationError('Используйте корпоративную почту, оканчивающуюся на @vk.team или @corp.mail.ru')
         return email
 
 # class ManyFieldsFormWidget(forms.Form):
@@ -28,3 +28,4 @@ class ProductForm(forms.Form):
     price = forms.DecimalField(max_digits=10, decimal_places=2)
     foto = forms.ImageField()
     quantity = forms.IntegerField(min_value=0)
+    rating = forms.DecimalField(max_digits=3, decimal_places=2)

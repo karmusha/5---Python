@@ -5,8 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aeaf0738-833e-4e8a-8a61-174b019e758c" name="Changes" comment="deleted some odd files">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dz8" beforeDir="false" afterPath="$PROJECT_DIR$/dz8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_sem1/dz1_task6.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_sem1/dz1_task6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio-3.6.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio-3.6.2.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio-3.6.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio-3.6.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio-3.6.2.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio-3.6.2.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio-3.6.2.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_backends/_asyncio.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_backends/_asyncio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_backends/_trio.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_backends/_trio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_eventloop.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_eventloop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_fileio.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_fileio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_resources.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_resources.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_sockets.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_sockets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_streams.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_streams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_subprocesses.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_subprocesses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_synchronization.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_synchronization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_typedattr.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/_core/_typedattr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/abc/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/abc/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/abc/_resources.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/abc/_resources.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/abc/_sockets.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/abc/_sockets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/abc/_streams.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/abc/_streams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/abc/_subprocesses.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/abc/_subprocesses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/abc/_tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/abc/_tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/abc/_testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/abc/_testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/from_thread.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/from_thread.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/lowlevel.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/lowlevel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/pytest_plugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/pytest_plugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/streams/buffered.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/streams/buffered.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/streams/file.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/streams/file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/streams/memory.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/streams/memory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/streams/stapled.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/streams/stapled.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/streams/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/streams/text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/streams/tls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/streams/tls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/to_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/to_process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/to_thread.py" beforeDir="false" afterPath="$PROJECT_DIR$/dz8/.venv/Lib/site-packages/anyio/to_thread.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karmaproject/dz_karmaapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/karmaproject/dz_karmaapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karmaproject/dz_karmaapp/templates/dz_karmaapp/client_orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/karmaproject/dz_karmaapp/templates/dz_karmaapp/client_orders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karmaproject/dz_karmaapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/karmaproject/dz_karmaapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karmaproject/dz_karmaapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/karmaproject/dz_karmaapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +75,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2RMuVHpVsHNy6d2de7k6ShL6SVf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -37,18 +86,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "dz1",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/karmu/Desktop/STUDIUM/5 - Python/new_sem1/dz1_task6.py",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Python",
-    "settings.editor.splitter.proportion": "0.28134558"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/karmu/Desktop/STUDIUM/5 - Python/new_sem1/dz1_task6.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Python&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.28134558&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\karmu\Desktop\STUDIUM\5 - Python\new_sem1" />
@@ -79,6 +128,9 @@
     <configuration name="dz1_task6" type="PythonConfigurationType" factoryName="Python" activateToolWindowBeforeRun="false" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="C:\Users\karmu\AppData\Local\Programs\Python\Python310\python.exe" />
       <option name="SDK_NAME" value="Python 3.10" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/new_sem1" />

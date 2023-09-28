@@ -9,26 +9,31 @@ from datetime import date, timedelta
 
 logger = logging.getLogger(__name__)
 
-def index(request):
+def main(request):
     logger.info('Main page accessed')
     html = """
         My name is Karma."""
-    return HttpResponse(f'<h1>{html}</h1>') 
+    # return HttpResponse(f'<h1>{html}</h1>') 
+    return render(request, 'dz_karmaapp/main.html', {'html': html})
 
 def about(request):
-    html = """
-        This is my first <b>Django-site</b>.<br>
-        <i>And I hope, not the last one.</i> :)
+    # html = """
+    #     This is my first <b>Django-site</b>.<br>
+    #     <i>And I hope, not the last one.</i> :)
+    #     """
+    # return HttpResponse(f'<h1>{html}</h1>')
+    html =  """
+        This is my first Django-site. And I hope, not the last one. :)
         """
     logger.debug('About page accessed')
-    return HttpResponse(html) 
+    return render(request, 'dz_karmaapp/main.html', {'html': html})
 
 def client_orders_7days(request, client_id): # допилить
     startdate = date.today()
     enddate = startdate + timedelta(days=6)
     client = get_object_or_404(Client, pk=client_id)
     orders = Order.objects.filter(client=client).filter(date__range=[startdate, enddate]).order_by('date_ordered') # ???
-    return render(request, 'myapp3/client_orders.html', {'client': client, 'orders':orders})
+    return render(request, 'dz_karmaapp/client_orders.html', {'client': client, 'orders':orders})
 
 def client_form(request):
     if request.method =='POST':

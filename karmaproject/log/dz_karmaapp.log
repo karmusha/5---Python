@@ -20,3 +20,19 @@ INFO 2023-09-24 11:29:53,481 views 19064 13012 Client: name='Karma2', email='kar
 INFO 2023-09-24 11:30:03,928 views 19064 13012 Client: name='Karma3', email='karma3@vk.team', tel='483729455', address='dfnyf,l,ykFRDRGWht'
 INFO 2023-09-24 11:30:11,239 views 19064 13012 Client: name='Karma3', email='karma3@vk.team', tel='483729455', address='dfnyf\r\nykFRDRGWht'
 INFO 2023-09-24 11:30:35,658 views 19064 13012 Client: name='Karma3', email='karma3@vk.team', tel='4837277', address='dfnyf\r\nykFRDRGWht'
+INFO 2023-09-24 11:53:33,940 views 8580 21512 Main page accessed
+INFO 2023-09-24 11:54:09,865 views 8580 21512 Main page accessed
+INFO 2023-09-24 12:02:29,519 views 15656 5172 Main page accessed
+INFO 2023-09-24 12:02:31,172 views 15656 5172 Main page accessed
+INFO 2023-09-24 12:03:59,597 views 20744 15972 Main page accessed
+INFO 2023-09-24 12:04:05,178 views 20744 15972 Main page accessed
+DEBUG 2023-09-24 12:04:41,928 views 20744 22220 About page accessed
+DEBUG 2023-09-24 12:05:59,376 views 23480 25196 About page accessed
+INFO 2023-09-24 12:06:02,570 views 23480 25196 Main page accessed
+INFO 2023-09-24 12:08:38,003 views 23480 25196 Main page accessed
+DEBUG 2023-09-24 12:08:42,413 views 23480 20312 About page accessed
+INFO 2023-09-24 12:15:32,427 views 15288 23296 Main page accessed
+DEBUG 2023-09-24 12:16:02,946 views 23724 20192 About page accessed
+DEBUG 2023-09-24 12:17:06,820 views 10848 19592 About page accessed
+DEBUG 2023-09-24 12:17:18,074 views 25584 19876 About page accessed
+INFO 2023-09-24 12:20:11,356 views 7552 23516 Main page accessed

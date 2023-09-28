@@ -1362,3 +1362,150 @@ INFO 2023-09-24 11:38:03,389 autoreload 26056 856 C:\Users\karmu\Desktop\STUDIUM
 INFO 2023-09-24 11:38:03,791 autoreload 16248 12556 Watching for file changes with StatReloader
 INFO 2023-09-24 11:38:08,977 basehttp 16248 12896 "GET /admin/dz_karmaapp/client/4/change/ HTTP/1.1" 200 12527
 INFO 2023-09-24 11:38:08,991 basehttp 16248 12896 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:53:13,571 autoreload 8580 23704 Watching for file changes with StatReloader
+INFO 2023-09-24 11:53:19,618 basehttp 8580 8008 "GET / HTTP/1.1" 200 13
+INFO 2023-09-24 11:53:33,937 basehttp 8580 8008 "GET /dz HTTP/1.1" 301 0
+INFO 2023-09-24 11:53:33,951 basehttp 8580 21512 "GET /dz/ HTTP/1.1" 200 35
+INFO 2023-09-24 11:54:09,877 basehttp 8580 21512 "GET /dz/ HTTP/1.1" 200 35
+INFO 2023-09-24 11:54:11,777 basehttp 8580 21512 "GET /admin/dz_karmaapp/client/4/change/ HTTP/1.1" 200 22365
+INFO 2023-09-24 11:54:11,793 basehttp 8580 21512 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2023-09-24 11:54:11,793 basehttp 8580 15392 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2023-09-24 11:54:11,806 basehttp 8580 21512 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2023-09-24 11:54:11,842 basehttp 8580 21512 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+INFO 2023-09-24 11:54:13,408 basehttp 8580 21512 "GET /admin/dz_karmaapp/client/4/change/ HTTP/1.1" 200 22364
+INFO 2023-09-24 11:54:13,437 basehttp 8580 21512 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-24 11:54:18,043 basehttp 8580 21512 "GET /admin/dz_karmaapp/ HTTP/1.1" 200 16095
+INFO 2023-09-24 11:54:21,000 basehttp 8580 21512 "GET /admin HTTP/1.1" 301 0
+INFO 2023-09-24 11:54:21,044 basehttp 8580 15392 "GET /admin/ HTTP/1.1" 200 20403
+INFO 2023-09-24 11:54:23,666 basehttp 8580 15392 "GET / HTTP/1.1" 200 13
+INFO 2023-09-24 11:54:33,991 basehttp 8580 15392 "GET /admin/ HTTP/1.1" 200 20403
+INFO 2023-09-24 11:59:42,533 autoreload 8580 23704 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\urls.py changed, reloading.
+INFO 2023-09-24 11:59:42,966 autoreload 23896 5476 Watching for file changes with StatReloader
+INFO 2023-09-24 12:02:06,909 autoreload 23896 5476 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\karmaproject\urls.py changed, reloading.
+INFO 2023-09-24 12:02:07,311 autoreload 24252 14908 Watching for file changes with StatReloader
+INFO 2023-09-24 12:02:16,822 autoreload 24252 14908 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\urls.py changed, reloading.
+INFO 2023-09-24 12:02:17,248 autoreload 15656 23616 Watching for file changes with StatReloader
+INFO 2023-09-24 12:02:22,285 basehttp 15656 18736 "GET /admin/ HTTP/1.1" 200 20398
+INFO 2023-09-24 12:02:22,297 basehttp 15656 5172 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-09-24 12:02:22,297 basehttp 15656 18736 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-09-24 12:02:22,316 basehttp 15656 18736 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-09-24 12:02:22,317 basehttp 15656 5172 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-09-24 12:02:24,736 basehttp 15656 5172 "GET / HTTP/1.1" 200 13
+INFO 2023-09-24 12:02:29,530 basehttp 15656 5172 "GET /dz/ HTTP/1.1" 200 35
+INFO 2023-09-24 12:02:31,185 basehttp 15656 5172 "GET /dz/ HTTP/1.1" 200 35
+INFO 2023-09-24 12:02:33,431 basehttp 15656 5172 "GET /admin/ HTTP/1.1" 200 20397
+INFO 2023-09-24 12:02:45,854 autoreload 1636 21320 Watching for file changes with StatReloader
+INFO 2023-09-24 12:02:49,005 basehttp 1636 22204 "GET /admin/ HTTP/1.1" 200 20398
+INFO 2023-09-24 12:02:51,781 basehttp 1636 22204 "GET / HTTP/1.1" 200 13
+INFO 2023-09-24 12:03:47,875 autoreload 20744 26216 Watching for file changes with StatReloader
+INFO 2023-09-24 12:03:50,400 basehttp 20744 13712 "GET / HTTP/1.1" 200 13
+INFO 2023-09-24 12:03:54,663 basehttp 20744 13712 "GET /about HTTP/1.1" 301 0
+INFO 2023-09-24 12:03:54,676 basehttp 20744 15972 "GET /about/ HTTP/1.1" 200 27
+INFO 2023-09-24 12:03:59,608 basehttp 20744 15972 "GET /dz/ HTTP/1.1" 200 35
+INFO 2023-09-24 12:04:05,188 basehttp 20744 15972 "GET /dz/ HTTP/1.1" 200 35
+INFO 2023-09-24 12:04:08,404 basehttp 20744 15972 "GET /dz/client/add HTTP/1.1" 301 0
+INFO 2023-09-24 12:04:08,523 basehttp 20744 18464 "GET /dz/client/add/ HTTP/1.1" 200 11066
+INFO 2023-09-24 12:04:08,535 basehttp 20744 18464 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-09-24 12:04:08,538 basehttp 20744 18464 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-09-24 12:04:08,541 basehttp 20744 18464 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-09-24 12:04:08,601 basehttp 20744 18464 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+WARNING 2023-09-24 12:04:13,205 log 20744 18464 Not Found: /dz/client
+WARNING 2023-09-24 12:04:13,205 basehttp 20744 18464 "GET /dz/client HTTP/1.1" 404 13280
+WARNING 2023-09-24 12:04:15,692 log 20744 18464 Not Found: /dz/clients
+WARNING 2023-09-24 12:04:15,692 basehttp 20744 18464 "GET /dz/clients HTTP/1.1" 404 13284
+WARNING 2023-09-24 12:04:21,003 log 20744 18464 Not Found: /dz/client/2
+WARNING 2023-09-24 12:04:21,004 basehttp 20744 18464 "GET /dz/client/2 HTTP/1.1" 404 13288
+WARNING 2023-09-24 12:04:23,155 log 20744 18464 Not Found: /dz/client/1
+WARNING 2023-09-24 12:04:23,156 basehttp 20744 18464 "GET /dz/client/1 HTTP/1.1" 404 13288
+INFO 2023-09-24 12:04:34,914 basehttp 20744 18464 "GET /dz/client/1/7 HTTP/1.1" 301 0
+ERROR 2023-09-24 12:04:34,974 log 20744 17572 Internal Server Error: /dz/client/1/7/
+Traceback (most recent call last):
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py", line 30, in client_orders_7days
+    orders = Order.objects.filter(client=client).filter(date__range=[startdate, enddate]).order_by('date_ordered') # ???
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\sql\query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\sql\query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\sql\query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\sql\query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\karmu\Desktop\STUDIUM\5 - Python\dz8\.venv\lib\site-packages\django\db\models\sql\query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'client' into field. Choices are: customer, customer_id, date_ordered, id, products, total_price
+ERROR 2023-09-24 12:04:34,999 basehttp 20744 17572 "GET /dz/client/1/7/ HTTP/1.1" 500 126501
+INFO 2023-09-24 12:04:41,925 basehttp 20744 17572 "GET /dz/about HTTP/1.1" 301 0
+INFO 2023-09-24 12:04:41,943 basehttp 20744 22220 "GET /dz/about/ HTTP/1.1" 200 106
+INFO 2023-09-24 12:05:16,086 autoreload 20744 26216 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\urls.py changed, reloading.
+INFO 2023-09-24 12:05:16,538 autoreload 3816 20820 Watching for file changes with StatReloader
+INFO 2023-09-24 12:05:39,338 autoreload 3816 20820 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-24 12:05:39,738 autoreload 22128 20244 Watching for file changes with StatReloader
+INFO 2023-09-24 12:05:51,231 autoreload 22128 20244 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\urls.py changed, reloading.
+INFO 2023-09-24 12:05:51,653 autoreload 23480 23040 Watching for file changes with StatReloader
+INFO 2023-09-24 12:05:59,396 basehttp 23480 25196 "GET /dz/about/ HTTP/1.1" 200 106
+INFO 2023-09-24 12:06:02,579 basehttp 23480 25196 "GET /dz/ HTTP/1.1" 200 35
+INFO 2023-09-24 12:08:38,015 basehttp 23480 25196 "GET /dz/ HTTP/1.1" 200 35
+INFO 2023-09-24 12:08:42,410 basehttp 23480 25196 "GET /dz/about HTTP/1.1" 301 0
+INFO 2023-09-24 12:08:42,423 basehttp 23480 20312 "GET /dz/about/ HTTP/1.1" 200 106
+INFO 2023-09-24 12:11:05,619 autoreload 23480 23040 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-24 12:11:06,037 autoreload 12276 19740 Watching for file changes with StatReloader
+INFO 2023-09-24 12:13:39,269 autoreload 12276 19740 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-24 12:13:39,680 autoreload 14520 22828 Watching for file changes with StatReloader
+INFO 2023-09-24 12:15:26,646 autoreload 14520 22828 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-24 12:15:27,049 autoreload 15288 24328 Watching for file changes with StatReloader
+INFO 2023-09-24 12:15:32,535 basehttp 15288 23296 "GET /dz/ HTTP/1.1" 200 10115
+INFO 2023-09-24 12:15:32,548 basehttp 15288 23296 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-09-24 12:15:32,549 basehttp 15288 24136 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-09-24 12:15:32,561 basehttp 15288 23296 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-09-24 12:15:32,941 basehttp 15288 23296 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-09-24 12:15:59,236 autoreload 15288 24328 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-24 12:15:59,692 autoreload 23724 22400 Watching for file changes with StatReloader
+INFO 2023-09-24 12:16:03,054 basehttp 23724 20192 "GET /dz/about/ HTTP/1.1" 200 10232
+INFO 2023-09-24 12:17:04,798 autoreload 23724 22400 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-24 12:17:05,220 autoreload 10848 19856 Watching for file changes with StatReloader
+INFO 2023-09-24 12:17:06,919 basehttp 10848 19592 "GET /dz/about/ HTTP/1.1" 200 10183
+INFO 2023-09-24 12:17:13,762 autoreload 10848 19856 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-24 12:17:14,212 autoreload 25584 5124 Watching for file changes with StatReloader
+INFO 2023-09-24 12:17:18,175 basehttp 25584 19876 "GET /dz/about/ HTTP/1.1" 200 10184
+INFO 2023-09-24 12:17:23,765 autoreload 25584 5124 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-24 12:17:24,172 autoreload 22068 10552 Watching for file changes with StatReloader
+INFO 2023-09-24 12:17:31,616 autoreload 22068 10552 C:\Users\karmu\Desktop\STUDIUM\5 - Python\karmaproject\dz_karmaapp\views.py changed, reloading.
+INFO 2023-09-24 12:17:31,998 autoreload 7552 23764 Watching for file changes with StatReloader
+INFO 2023-09-24 12:20:05,443 basehttp 7552 23516 "GET /dz/__debug__/render_panel/?store_id=11c9963bb4b24755b1e2ed3db355d4af&panel_id=HistoryPanel HTTP/1.1" 200 531
+INFO 2023-09-24 12:20:11,465 basehttp 7552 23516 "GET /dz/ HTTP/1.1" 200 10114
+INFO 2023-09-24 12:20:11,477 basehttp 7552 23516 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-09-24 12:20:11,477 basehttp 7552 24164 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-09-24 12:20:11,491 basehttp 7552 24164 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-09-24 12:20:11,881 basehttp 7552 24164 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-09-24 12:20:12,974 basehttp 7552 24164 "GET /dz/__debug__/render_panel/?store_id=895f786b6dae4e95b1a09cef853b4b3f&panel_id=HistoryPanel HTTP/1.1" 200 2514
+INFO 2023-09-24 12:20:12,979 basehttp 7552 24164 "GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3330
+INFO 2023-09-24 12:25:39,465 basehttp 7552 8804 "GET /dz/__debug__/render_panel/?store_id=895f786b6dae4e95b1a09cef853b4b3f&panel_id=TemplatesPanel HTTP/1.1" 200 6005
+INFO 2023-09-24 12:25:48,571 basehttp 7552 8804 "GET /dz/__debug__/render_panel/?store_id=895f786b6dae4e95b1a09cef853b4b3f&panel_id=CachePanel HTTP/1.1" 200 1737
+INFO 2023-09-24 12:25:50,419 basehttp 7552 8804 "GET /dz/__debug__/render_panel/?store_id=895f786b6dae4e95b1a09cef853b4b3f&panel_id=SignalsPanel HTTP/1.1" 200 2265
+INFO 2023-09-24 12:27:09,828 basehttp 7552 8804 "GET /dz/client/add/ HTTP/1.1" 200 11509
+INFO 2023-09-24 12:27:09,842 basehttp 7552 7184 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-09-24 12:27:09,842 basehttp 7552 8804 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-09-24 12:27:09,856 basehttp 7552 8804 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-09-24 12:27:10,253 basehttp 7552 8804 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-09-24 12:27:15,393 basehttp 7552 8804 "GET /dz/__debug__/render_panel/?store_id=bdd9db92e14f4381a49f66a80fe0fed5&panel_id=SignalsPanel HTTP/1.1" 200 2310
+INFO 2023-09-24 12:27:16,373 basehttp 7552 8804 "GET /dz/__debug__/render_panel/?store_id=bdd9db92e14f4381a49f66a80fe0fed5&panel_id=ProfilingPanel HTTP/1.1" 200 37056
+INFO 2023-09-25 07:57:11,243 basehttp 7552 1316 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-09-25 07:57:11,244 basehttp 7552 15620 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-09-25 07:57:11,252 basehttp 7552 15620 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-09-25 07:57:11,660 basehttp 7552 15620 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+INFO 2023-09-25 15:55:49,390 basehttp 7552 16460 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2023-09-25 15:55:49,390 basehttp 7552 25604 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2023-09-25 15:55:49,421 basehttp 7552 25604 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2023-09-25 15:55:49,843 basehttp 7552 25604 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0

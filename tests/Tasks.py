@@ -10,11 +10,8 @@ class Tasks:
     
     @staticmethod
     def compare_two_avgs(numbers1, numbers2):
-        try:
-            avg1 = Tasks.find_average(numbers1)
-            avg2 = Tasks.find_average(numbers2)
-        except TypeError:
-            print(f'Input should be a list.') 
+        avg1 = Tasks.find_average(numbers1)
+        avg2 = Tasks.find_average(numbers2)
         
         if avg1 > avg2:
             return 'Первый список имеет большее среднее значение'
